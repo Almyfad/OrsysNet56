@@ -1,0 +1,1077 @@
+﻿++Solution 'IntroAspNet' ‎(2 sur 2 projets)
+i:{00000000-0000-0000-0000-000000000000}:IntroAspNet.sln
+++AspNetMVC
+i:{00000000-0000-0000-0000-000000000000}:AspNetMVC
+++Connected Services 
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:>1269
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:>1270
+++Dépendances
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:>1267
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:>1268
+++Properties
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\properties\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\properties\
+++wwwroot
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\
+++css
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\css\
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\css\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\css\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\css\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\css\
+++site.css
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\css\site.css
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\css\site.css
+++js
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\js\
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\js\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\js\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\js\
+++lib
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\braces\lib\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\chokidar\lib\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\picomatch\lib\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\source-map-js\lib\
+++favicon.ico
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\favicon.ico
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\favicon.ico
+++Controllers
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\controllers\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\controllers\
+++Models
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\models\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\models\
+++Views
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\views\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\views\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\scopedcss\views\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\net6.0\scopedcss\views\
+++appsettings.json
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\appsettings.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\appsettings.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\bin\debug\net6.0\appsettings.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\bin\release\net6.0\appsettings.json
+++Program.cs
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\program.cs
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\program.cs
+++Aucune dépendance de service découverte
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:>1271
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:>1272
+++Analyseurs
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:analyseurs
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:analyseurs
+++Frameworks
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:frameworks
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:frameworks
+++launchSettings.json
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\properties\launchsettings.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\properties\launchsettings.json
+++site.js
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\js\site.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\js\site.js
+++bootstrap
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\
+++jquery
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\jquery\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\jquery\
+++jquery-validation
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\jquery-validation\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\jquery-validation-unobtrusive\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\jquery-validation-unobtrusive\
+++HomeController.cs
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\controllers\homecontroller.cs
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\controllers\homecontroller.cs
+++ErrorViewModel.cs
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\models\errorviewmodel.cs
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\models\errorviewmodel.cs
+++Home
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\views\home\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\views\home\
+++Shared
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\views\shared\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\views\shared\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\scopedcss\views\shared\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\net6.0\scopedcss\views\shared\
+++_ViewImports.cshtml
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\views\_viewimports.cshtml
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\views\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\views\_viewstart.cshtml
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\views\_viewstart.cshtml
+++Index.cshtml
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\views\index.cshtml
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\views\home\index.cshtml
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\views\home\index.cshtml
+++appsettings.Development.json
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\appsettings.development.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\appsettings.development.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\bin\debug\net6.0\appsettings.development.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\bin\release\net6.0\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\microsoft.aspnetcore.app
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\microsoft.netcore.app
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\microsoft.netcore.app
+++dist
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\jquery\dist\
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\jquery-validation\dist\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\jquery\dist\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\jquery-validation\dist\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\immutable\dist\
+++LICENSE
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\license
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\license
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\anymatch\license
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\braces\license
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\chokidar\license
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\fill-range\license
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\glob-parent\license
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\immutable\license
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\is-extglob\license
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\is-glob\license
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\is-number\license
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\normalize-path\license
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\picomatch\license
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\readdirp\license
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\license
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\source-map-js\license
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\to-regex-range\license
+++LICENSE.txt
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\jquery\license.txt
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\jquery\license.txt
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\jquery-validation\license.md
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++Privacy.cshtml
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\views\home\privacy.cshtml
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\views\home\privacy.cshtml
+++_Layout.cshtml
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\views\shared\_layout.cshtml
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\views\shared\_layout.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\views\shared\_validationscriptspartial.cshtml
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\views\shared\_validationscriptspartial.cshtml
+++Error.cshtml
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\views\shared\error.cshtml
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\views\shared\error.cshtml
+++jquery.js
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\jquery\dist\jquery.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\jquery\dist\jquery.js
+++additional-methods.js
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\jquery-validation\dist\additional-methods.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++_Layout.cshtml.css
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\views\shared\_layout.cshtml.css
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\views\shared\_layout.cshtml.css
+++bootstrap.css
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap-grid.css
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-reboot.css
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap-utilities.css
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+++bootstrap.js
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++jquery.min.js
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\jquery\dist\jquery.min.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\jquery\dist\jquery.min.js
+++additional-methods.min.js
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++bootstrap.css.map
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.min.css
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap.rtl.css
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+++bootstrap-grid.css.map
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-grid.rtl.css
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+++bootstrap-reboot.css.map
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap-reboot.rtl.css
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+++bootstrap-utilities.css.map
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+++bootstrap-utilities.min.css
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+++bootstrap-utilities.rtl.css
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+++bootstrap.bundle.js
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.esm.js
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+++bootstrap.js.map
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.min.map
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\jquery\dist\jquery.min.map
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\jquery\dist\jquery.min.map
+++bootstrap.min.css.map
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap.rtl.css.map
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+++bootstrap.rtl.min.css
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+++bootstrap-grid.min.css.map
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-grid.rtl.css.map
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+++bootstrap-grid.rtl.min.css
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+++bootstrap-reboot.min.css.map
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap-reboot.rtl.css.map
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+++bootstrap-reboot.rtl.min.css
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+++bootstrap-utilities.min.css.map
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+++bootstrap-utilities.rtl.css.map
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+++bootstrap-utilities.rtl.min.css
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+++bootstrap.bundle.js.map
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.esm.js.map
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+++bootstrap.esm.min.js
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+++bootstrap.min.js.map
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++bootstrap.rtl.min.css.map
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+++bootstrap-grid.rtl.min.css.map
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+++bootstrap-reboot.rtl.min.css.map
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+++bootstrap-utilities.rtl.min.css.map
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+++bootstrap.bundle.min.js.map
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++bootstrap.esm.min.js.map
+i:{ca5d1344-5fca-49ad-b7b7-dcd3c7bd9d47}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\aspnetmvc\aspnetmvc\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+++IntroAspNet
+i:{00000000-0000-0000-0000-000000000000}:IntroAspNet
+++Importations
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:>561
+++site.scss
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\css\site.scss
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\css\site.scss
+++NewFolder
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\newfolder\
+++test
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\test\
+++bin
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\bin\
+++obj
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\
+++Sass
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\bin\debug\net6.0\sass\
+++node_modules
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\
+++.bin
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\.bin\
+++@babel
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\@babel\
+++@gar
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\@gar\
+++@npmcli
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\@npmcli\
+++@tootallnate
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\@tootallnate\
+++@types
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\@types\
+++anymatch
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\anymatch\
+++binary-extensions
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\binary-extensions\
+++braces
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\braces\
+++chokidar
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\chokidar\
+++fill-range
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\fill-range\
+++glob-parent
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\glob-parent\
+++immutable
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\immutable\
+++is-binary-path
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\is-binary-path\
+++is-extglob
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\is-extglob\
+++is-glob
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\is-glob\
+++is-number
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\is-number\
+++normalize-path
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\normalize-path\
+++picomatch
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\picomatch\
+++readdirp
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\readdirp\
+++sass
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\.bin\sass
+++source-map-js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\source-map-js\
+++to-regex-range
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\to-regex-range\
+++.package-lock.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\.package-lock.json
+++package.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\package.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\anymatch\package.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\binary-extensions\package.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\braces\package.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\chokidar\package.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\fill-range\package.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\glob-parent\package.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\immutable\package.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\is-binary-path\package.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\is-extglob\package.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\is-glob\package.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\is-number\package.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\normalize-path\package.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\picomatch\package.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\readdirp\package.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\package.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\source-map-js\package.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\to-regex-range\package.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\bin\debug\net6.0\sass\package.json
+++Services
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\services\
+++ViewModel
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\viewmodel\
+++_newLayout.cshtml
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\views\shared\_newlayout.cshtml
+++Sdk.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\sdk\sdk.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.illink.tasks\sdk\sdk.props
+++Sdk.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\sdk\sdk.targets
+++site.css.map
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\css\site.css.map
+++index.html
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\wwwroot\test\index.html
+++Debug
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\bin\debug\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\
+++Release
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\bin\release\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\
+++IntroAspNet.csproj.nuget.dgspec.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\introaspnet.csproj.nuget.dgspec.json
+++IntroAspNet.csproj.nuget.g.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\introaspnet.csproj.nuget.g.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\introaspnet.csproj.nuget.g.props
+++IntroAspNet.csproj.nuget.g.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\introaspnet.csproj.nuget.g.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\introaspnet.csproj.nuget.g.targets
+++project.assets.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\project.assets.json
+++project.nuget.cache
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\project.nuget.cache
+++staticwebassets.pack.sentinel
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\staticwebassets.pack.sentinel
+++sass.cmd
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\.bin\sass.cmd
+++sass.ps1
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\.bin\sass.ps1
+++index.d.ts
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\anymatch\index.d.ts
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\binary-extensions\index.d.ts
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\is-binary-path\index.d.ts
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\readdirp\index.d.ts
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\chokidar\types\index.d.ts
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\types\index.d.ts
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\types\logger\index.d.ts
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\types\value\index.d.ts
+++index.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\anymatch\index.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\binary-extensions\index.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\braces\index.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\chokidar\index.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\fill-range\index.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\glob-parent\index.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\is-binary-path\index.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\is-extglob\index.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\is-glob\index.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\is-number\index.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\normalize-path\index.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\picomatch\index.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\readdirp\index.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\to-regex-range\index.js
+++README.md
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\anymatch\readme.md
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\braces\readme.md
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\chokidar\readme.md
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\fill-range\readme.md
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\glob-parent\readme.md
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\immutable\readme.md
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\is-extglob\readme.md
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\is-glob\readme.md
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\is-number\readme.md
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\normalize-path\readme.md
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\picomatch\readme.md
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\readdirp\readme.md
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\readme.md
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\source-map-js\readme.md
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\to-regex-range\readme.md
+++binary-extensions.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\binary-extensions\binary-extensions.json
+++binary-extensions.json.d.ts
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\binary-extensions\binary-extensions.json.d.ts
+++license
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\binary-extensions\license
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\is-binary-path\license
+++readme.md
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\binary-extensions\readme.md
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\is-binary-path\readme.md
+++CHANGELOG.md
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\braces\changelog.md
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\glob-parent\changelog.md
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\picomatch\changelog.md
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\source-map-js\changelog.md
+++types
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\chokidar\types\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\types\
+++sass.dart.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\sass.dart.js
+++sass.default.cjs
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\sass.default.cjs
+++sass.default.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\sass.default.js
+++sass.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\sass.js
+++sass.node.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\sass.node.js
+++sass.node.mjs
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\sass.node.mjs
+++source-map.d.ts
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\source-map-js\source-map.d.ts
+++source-map.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\source-map-js\source-map.js
+++package-lock.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\package-lock.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\bin\debug\net6.0\sass\package-lock.json
+++Messagerie.cs
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\services\messagerie.cs
+++ContactViewModel.cs
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\viewmodel\contactviewmodel.cs
+++Contact.cshtml
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\views\home\contact.cshtml
+++_newLayout.cshtml.css
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\views\shared\_newlayout.cshtml.css
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk\Sdk)
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\sdk\sdk.props
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk.Razor\Sdk)
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\sdk\sdk.props
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk.Web.ProjectSystem\Sdk)
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web.projectsystem\sdk\sdk.props
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk.Publish\Sdk)
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.publish\sdk\sdk.props
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk\Sdk)
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\sdk\sdk.targets
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk.Razor\Sdk)
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\sdk\sdk.targets
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk.Web.ProjectSystem\Sdk)
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web.projectsystem\sdk\sdk.targets
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk.Publish\Sdk)
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.publish\sdk\sdk.targets
+++net6.0
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\bin\debug\net6.0\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\bin\release\net6.0\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\net6.0\
+++compile.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\braces\lib\compile.js
+++constants.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\braces\lib\constants.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\chokidar\lib\constants.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\picomatch\lib\constants.js
+++expand.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\braces\lib\expand.js
+++parse.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\braces\lib\parse.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\picomatch\lib\parse.js
+++stringify.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\braces\lib\stringify.js
+++utils.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\braces\lib\utils.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\picomatch\lib\utils.js
+++fsevents-handler.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\chokidar\lib\fsevents-handler.js
+++nodefs-handler.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\chokidar\lib\nodefs-handler.js
+++immutable.d.ts
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\immutable\dist\immutable.d.ts
+++immutable.es.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\immutable\dist\immutable.es.js
+++immutable.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\immutable\dist\immutable.js
+++immutable.js.flow
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\immutable\dist\immutable.js.flow
+++immutable.min.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\immutable\dist\immutable.min.js
+++picomatch.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\picomatch\lib\picomatch.js
+++scan.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\picomatch\lib\scan.js
+++legacy
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\types\legacy\
+++logger
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\types\logger\
+++util
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\types\util\
+++value
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\types\value\
+++compile.d.ts
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\types\compile.d.ts
+++exception.d.ts
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\types\exception.d.ts
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\types\legacy\exception.d.ts
+++importer.d.ts
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\types\importer.d.ts
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\types\legacy\importer.d.ts
+++options.d.ts
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\types\options.d.ts
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\types\legacy\options.d.ts
+++array-set.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\source-map-js\lib\array-set.js
+++base64.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\source-map-js\lib\base64.js
+++base64-vlq.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\source-map-js\lib\base64-vlq.js
+++binary-search.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\source-map-js\lib\binary-search.js
+++mapping-list.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\source-map-js\lib\mapping-list.js
+++quick-sort.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\source-map-js\lib\quick-sort.js
+++source-map-consumer.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\source-map-js\lib\source-map-consumer.js
+++source-map-generator.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\source-map-js\lib\source-map-generator.js
+++source-node.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\source-map-js\lib\source-node.js
+++util.js
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\source-map-js\lib\util.js
+++Index.cshtml.cs
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\views\home\index.cshtml.cs
+++Microsoft.Common.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\microsoft.common.props
+++Microsoft.NET.Sdk.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.props
+++Sdk.Razor.CurrentVersion.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\targets\sdk.razor.currentversion.props
+++Microsoft.NET.Sdk.Web.ProjectSystem.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web.projectsystem\targets\microsoft.net.sdk.web.projectsystem.props
+++Microsoft.NET.Sdk.Publish.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.publish\targets\microsoft.net.sdk.publish.props
+++Microsoft.NET.Sdk.BeforeCommon.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.beforecommon.targets
+++Microsoft.CSharp.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\bin\amd64\microsoft.csharp.targets
+++Microsoft.NET.Sdk.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.targets
+++Microsoft.NET.Compatibility.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.targets
+++NuGet.Build.Tasks.Pack.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\nuget.build.tasks.pack\build\nuget.build.tasks.pack.targets
+++Sdk.Razor.CurrentVersion.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\targets\sdk.razor.currentversion.targets
+++Microsoft.NET.Sdk.Web.ProjectSystem.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web.projectsystem\targets\microsoft.net.sdk.web.projectsystem.targets
+++Microsoft.NET.Sdk.Publish.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.publish\targets\microsoft.net.sdk.publish.targets
+++IntroAspNet.deps.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\bin\debug\net6.0\introaspnet.deps.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\bin\release\net6.0\introaspnet.deps.json
+++IntroAspNet.dll
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\bin\debug\net6.0\introaspnet.dll
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\bin\release\net6.0\introaspnet.dll
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\introaspnet.dll
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\net6.0\introaspnet.dll
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\ref\introaspnet.dll
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\refint\introaspnet.dll
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\net6.0\ref\introaspnet.dll
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\net6.0\refint\introaspnet.dll
+++IntroAspNet.exe
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\bin\debug\net6.0\introaspnet.exe
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\bin\release\net6.0\introaspnet.exe
+++IntroAspNet.pdb
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\bin\debug\net6.0\introaspnet.pdb
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\bin\release\net6.0\introaspnet.pdb
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\introaspnet.pdb
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\net6.0\introaspnet.pdb
+++IntroAspNet.runtimeconfig.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\bin\debug\net6.0\introaspnet.runtimeconfig.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\bin\release\net6.0\introaspnet.runtimeconfig.json
+++IntroAspNet.staticwebassets.runtime.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\bin\debug\net6.0\introaspnet.staticwebassets.runtime.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\bin\release\net6.0\introaspnet.staticwebassets.runtime.json
+++ref
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\ref\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\net6.0\ref\
+++refint
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\refint\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\net6.0\refint\
+++scopedcss
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\scopedcss\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\net6.0\scopedcss\
+++staticwebassets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\staticwebassets\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\net6.0\staticwebassets\
+++.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\.netcoreapp,version=v6.0.assemblyattributes.cs
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\net6.0\.netcoreapp,version=v6.0.assemblyattributes.cs
+++apphost.exe
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\apphost.exe
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\net6.0\apphost.exe
+++IntroAspNet.AssemblyInfo.cs
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\introaspnet.assemblyinfo.cs
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\net6.0\introaspnet.assemblyinfo.cs
+++IntroAspNet.AssemblyInfoInputs.cache
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\introaspnet.assemblyinfoinputs.cache
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\net6.0\introaspnet.assemblyinfoinputs.cache
+++IntroAspNet.assets.cache
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\introaspnet.assets.cache
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\net6.0\introaspnet.assets.cache
+++IntroAspNet.csproj.AssemblyReference.cache
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\introaspnet.csproj.assemblyreference.cache
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\net6.0\introaspnet.csproj.assemblyreference.cache
+++IntroAspNet.csproj.BuildWithSkipAnalyzers
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\introaspnet.csproj.buildwithskipanalyzers
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\net6.0\introaspnet.csproj.buildwithskipanalyzers
+++IntroAspNet.csproj.CoreCompileInputs.cache
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\introaspnet.csproj.corecompileinputs.cache
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\net6.0\introaspnet.csproj.corecompileinputs.cache
+++IntroAspNet.csproj.FileListAbsolute.txt
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\introaspnet.csproj.filelistabsolute.txt
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\net6.0\introaspnet.csproj.filelistabsolute.txt
+++IntroAspNet.GeneratedMSBuildEditorConfig.editorconfig
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\introaspnet.generatedmsbuildeditorconfig.editorconfig
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\net6.0\introaspnet.generatedmsbuildeditorconfig.editorconfig
+++IntroAspNet.genruntimeconfig.cache
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\introaspnet.genruntimeconfig.cache
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\net6.0\introaspnet.genruntimeconfig.cache
+++IntroAspNet.GlobalUsings.g.cs
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\introaspnet.globalusings.g.cs
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\net6.0\introaspnet.globalusings.g.cs
+++IntroAspNet.MvcApplicationPartsAssemblyInfo.cache
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\introaspnet.mvcapplicationpartsassemblyinfo.cache
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\net6.0\introaspnet.mvcapplicationpartsassemblyinfo.cache
+++IntroAspNet.RazorAssemblyInfo.cache
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\introaspnet.razorassemblyinfo.cache
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\net6.0\introaspnet.razorassemblyinfo.cache
+++IntroAspNet.RazorAssemblyInfo.cs
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\introaspnet.razorassemblyinfo.cs
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\net6.0\introaspnet.razorassemblyinfo.cs
+++project.razor.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\project.razor.json
+++staticwebassets.build.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\staticwebassets.build.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\net6.0\staticwebassets.build.json
+++staticwebassets.development.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\staticwebassets.development.json
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\net6.0\staticwebassets.development.json
+++function.d.ts
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\types\legacy\function.d.ts
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\types\value\function.d.ts
+++plugin_this.d.ts
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\types\legacy\plugin_this.d.ts
+++render.d.ts
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\types\legacy\render.d.ts
+++source_location.d.ts
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\types\logger\source_location.d.ts
+++source_span.d.ts
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\types\logger\source_span.d.ts
+++promise_or.d.ts
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\types\util\promise_or.d.ts
+++argument_list.d.ts
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\types\value\argument_list.d.ts
+++boolean.d.ts
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\types\value\boolean.d.ts
+++color.d.ts
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\types\value\color.d.ts
+++list.d.ts
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\types\value\list.d.ts
+++map.d.ts
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\types\value\map.d.ts
+++number.d.ts
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\types\value\number.d.ts
+++string.d.ts
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\sass\node_modules\sass\types\value\string.d.ts
+++Microsoft.NuGet.ImportBefore.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\imports\microsoft.common.props\importbefore\microsoft.nuget.importbefore.props
+++NuGet.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\common7\ide\commonextensions\microsoft\nuget\nuget.props
+++Microsoft.NET.Sdk.DefaultItems.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.props
+++Microsoft.NET.Sdk.ImportWorkloads.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.props
+++Microsoft.NET.SupportedTargetFrameworks.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.supportedtargetframeworks.props
+++Microsoft.NET.SupportedPlatforms.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.supportedplatforms.props
+++Microsoft.NET.WindowsSdkSupportedTargetPlatforms.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.windowssdksupportedtargetplatforms.props
+++Microsoft.NET.Sdk.CSharp.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.props
+++Microsoft.NET.ILLink.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.illink.props
+++Microsoft.NET.Compatibility.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.props
+++Microsoft.NET.PackTool.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.props
+++Microsoft.NET.PackProjectTool.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.props
+++Microsoft.NET.Sdk.WindowsDesktop.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.props
+++Microsoft.NET.Windows.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.windows.props
+++Sdk.Razor.StaticAssets.ProjectSystem.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\sdk\sdk.razor.staticassets.projectsystem.props
+++Microsoft.TypeScript.Default.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\microsoft\visualstudio\v17.0\typescript\microsoft.typescript.default.props
+++Microsoft.NET.Sdk.Web.DefaultItems.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web.projectsystem\targets\microsoft.net.sdk.web.defaultitems.props
+++Microsoft.NET.DefaultAssemblyInfo.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.defaultassemblyinfo.targets
+++Microsoft.NET.DefaultOutputPaths.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.defaultoutputpaths.targets
+++Microsoft.NET.Sdk.ImportPublishProfile.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importpublishprofile.targets
+++Microsoft.NET.TargetFrameworkInference.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.targetframeworkinference.targets
+++Microsoft.NET.Sdk.Razor.BeforeCommon.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.beforecommon.targets
+++Microsoft.NET.Sdk.ImportWorkloads.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.targets
+++Microsoft.NET.RuntimeIdentifierInference.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.runtimeidentifierinference.targets
+++Microsoft.NET.EolTargetFrameworks.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.eoltargetframeworks.targets
+++Microsoft.NET.NuGetOfflineCache.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.nugetofflinecache.targets
+++Microsoft.Managed.Before.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\bin\amd64\microsoft.managed.before.targets
+++Microsoft.CSharp.CurrentVersion.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\bin\amd64\microsoft.csharp.currentversion.targets
+++Microsoft.Managed.After.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\bin\amd64\microsoft.managed.after.targets
+++Microsoft.NET.Sdk.Common.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.common.targets
+++Microsoft.PackageDependencyResolution.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.packagedependencyresolution.targets
+++Microsoft.NET.Sdk.DefaultItems.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.targets
+++Microsoft.NET.Sdk.FrameworkReferenceResolution.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.frameworkreferenceresolution.targets
+++Microsoft.NET.Sdk.Shared.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.shared.targets
+++Microsoft.NET.DisableStandardFrameworkResolution.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.disablestandardframeworkresolution.targets
+++Microsoft.NET.DesignerSupport.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.designersupport.targets
+++Microsoft.NET.GenerateAssemblyInfo.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.generateassemblyinfo.targets
+++Microsoft.NET.GenerateGlobalUsings.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.generateglobalusings.targets
+++Microsoft.NET.GenerateSupportedRuntime.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.generatesupportedruntime.targets
+++Microsoft.NET.ComposeStore.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.composestore.targets
+++Microsoft.NET.CrossGen.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.crossgen.targets
+++Microsoft.NET.ObsoleteReferences.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.obsoletereferences.targets
+++Microsoft.NET.Publish.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.publish.targets
+++Microsoft.NET.PackTool.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.targets
+++Microsoft.NET.PackProjectTool.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.targets
+++Microsoft.NET.PreserveCompilationContext.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.preservecompilationcontext.targets
+++Microsoft.NET.ConflictResolution.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.conflictresolution.targets
+++Microsoft.NET.Sdk.CSharp.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.targets
+++Microsoft.NET.ILLink.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.illink.targets
+++Microsoft.NET.Sdk.Analyzers.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.analyzers.targets
+++Microsoft.NET.Compatibility.Common.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.common.targets
+++Microsoft.NET.Sdk.Razor.Configuration.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.configuration.targets
+++Microsoft.NET.Sdk.Razor.CodeGeneration.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.codegeneration.targets
+++Microsoft.NET.Sdk.Razor.SourceGenerators.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.sourcegenerators.targets
+++Microsoft.NET.Sdk.Razor.StaticWebAssets.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.staticwebassets.targets
+++Microsoft.NET.Sdk.Razor.ScopedCss.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.scopedcss.targets
+++Microsoft.NET.Sdk.Razor.JSModules.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.jsmodules.targets
+++Microsoft.NET.Sdk.Razor.GenerateAssemblyInfo.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.generateassemblyinfo.targets
+++Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.mvcapplicationpartsdiscovery.targets
+++Microsoft.NET.Sdk.Razor.DesignTime.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\microsoft\visualstudio\razor\microsoft.net.sdk.razor.designtime.targets
+++Microsoft.TypeScript.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\microsoft\visualstudio\v17.0\typescript\microsoft.typescript.targets
+++Microsoft.TypeScript.DotNetCore.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\microsoft\visualstudio\v17.0\typescript\microsoft.typescript.dotnetcore.targets
+++Microsoft.Web.Designtime.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\microsoft\visualstudio\managed.web\microsoft.web.designtime.targets
+++Default.pubxml
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.publish\targets\publishprofiles\default.pubxml
+++Microsoft.NET.Sdk.Publish.ComputeFiles.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.publish\targets\computetargets\microsoft.net.sdk.publish.computefiles.targets
+++Microsoft.NET.Sdk.Publish.FilterFiles.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.publish\targets\copytargets\microsoft.net.sdk.publish.filterfiles.targets
+++Microsoft.NET.Sdk.Publish.CopyFiles.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.publish\targets\copytargets\microsoft.net.sdk.publish.copyfiles.targets
+++Microsoft.NET.Sdk.Publish.TransformFiles.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.publish\targets\transformtargets\microsoft.net.sdk.publish.transformfiles.targets
+++Microsoft.NET.Sdk.Publish.FileSystem.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.publish\targets\publishtargets\microsoft.net.sdk.publish.filesystem.targets
+++Microsoft.NET.Sdk.DotNetCLITool.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.publish\targets\dotnetclitooltargets\microsoft.net.sdk.dotnetclitool.targets
+++bundle
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\scopedcss\bundle\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\net6.0\scopedcss\bundle\
+++projectbundle
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\scopedcss\projectbundle\
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\net6.0\scopedcss\projectbundle\
+++Microsoft.NuGet.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\microsoft\nuget\17.0\microsoft.nuget.props
+++Microsoft.NETCoreSdk.BundledVersions.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\microsoft.netcoresdk.bundledversions.props
+++Microsoft.NET.Sdk.WindowsDesktop.WindowsForms.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.windowsforms.props
+++Microsoft.NET.Sdk.WindowsDesktop.WPF.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.wpf.props
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.android)
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.android\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.ios)
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.ios\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.maccatalyst)
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.maccatalyst\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.macos)
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.macos\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.maui)
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.maui\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.tvos)
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.tvos\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.workload.emscripten)
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.workload.emscripten\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.workload.mono.toolchain)
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.workload.mono.toolchain\workloadmanifest.targets
+++Microsoft.CSharp.Core.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\bin\roslyn\microsoft.csharp.core.targets
+++Microsoft.CSharp.DesignTime.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\microsoft\visualstudio\managed\microsoft.csharp.designtime.targets
+++Microsoft.Common.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\bin\amd64\microsoft.common.targets
+++Microsoft.ServiceModel.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\bin\amd64\microsoft.servicemodel.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.servicemodel.targets
+++Microsoft.NET.Sdk.DefaultItems.Shared.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.shared.targets
+++Microsoft.NETCoreSdk.BundledCliTools.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\microsoft.netcoresdk.bundledclitools.props
+++Microsoft.NET.DefaultPackageConflictOverrides.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\targets\microsoft.net.defaultpackageconflictoverrides.targets
+++Microsoft.CodeAnalysis.NetAnalyzers.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.props
+++Microsoft.CodeAnalysis.NetAnalyzers.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.targets
+++IntroAspNet.styles.css
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\scopedcss\bundle\introaspnet.styles.css
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\net6.0\scopedcss\bundle\introaspnet.styles.css
+++IntroAspNet.bundle.scp.css
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\scopedcss\projectbundle\introaspnet.bundle.scp.css
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\net6.0\scopedcss\projectbundle\introaspnet.bundle.scp.css
+++Microsoft.NET.ILLink.Tasks.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.illink.tasks\build\microsoft.net.illink.tasks.props
+++System.Windows.Forms.Analyzers.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.windowsdesktop\targets\system.windows.forms.analyzers.props
+++Microsoft.Managed.Core.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\bin\roslyn\microsoft.managed.core.targets
+++Microsoft.Managed.DesignTime.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\microsoft\visualstudio\managed\microsoft.managed.designtime.targets
+++Microsoft.Common.CurrentVersion.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\bin\amd64\microsoft.common.currentversion.targets
+++_Layout.cshtml.rz.scp.css
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\scopedcss\views\shared\_layout.cshtml.rz.scp.css
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\net6.0\scopedcss\views\shared\_layout.cshtml.rz.scp.css
+++_newLayout.cshtml.rz.scp.css
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\debug\net6.0\scopedcss\views\shared\_newlayout.cshtml.rz.scp.css
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\obj\release\net6.0\scopedcss\views\shared\_newlayout.cshtml.rz.scp.css
+++Microsoft.Managed.Core.CurrentVersions.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\bin\roslyn\microsoft.managed.core.currentversions.targets
+++Microsoft.Cpp.VCLibs120Universal.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\microsoft.common.targets\importbefore\microsoft.cpp.vclibs120universal.targets
+++Microsoft.Net.CoreRuntime.ImportBefore.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\microsoft.common.targets\importbefore\microsoft.net.coreruntime.importbefore.targets
+++Microsoft.NetNative.ImportBefore.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\microsoft.common.targets\importbefore\microsoft.netnative.importbefore.targets
+++IntroAspNet.csproj.user
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\users\orsys\desktop\stageasn\tps\tps\aspnet\intro\introaspnet\introaspnet\introaspnet.csproj.user
+++Microsoft.NET.props
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\bin\amd64\microsoft.net.props
+++Microsoft.CodeAnalysis.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\microsoft\visualstudio\v17.0\codeanalysis\microsoft.codeanalysis.targets
+++Microsoft.Xaml.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\bin\amd64\microsoft.xaml.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.xaml.targets
+++Microsoft.WorkflowBuildExtensions.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\bin\amd64\microsoft.workflowbuildextensions.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.workflowbuildextensions.targets
+++Microsoft.TeamTest.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\microsoft\visualstudio\v17.0\teamtest\microsoft.teamtest.targets
+++NuGet.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\common7\ide\commonextensions\microsoft\nuget\nuget.targets
+++Microsoft.DesktopBridge.ImportAfter.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\microsoft.common.targets\importafter\microsoft.desktopbridge.importafter.targets
+++Microsoft.Docker.ImportAfter.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\microsoft.common.targets\importafter\microsoft.docker.importafter.targets
+++Microsoft.NET.Build.Extensions.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\microsoft.common.targets\importafter\microsoft.net.build.extensions.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\microsoft\microsoft.net.build.extensions\microsoft.net.build.extensions.targets
+++Microsoft.Net.CoreRuntime.ImportAfter.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\microsoft.common.targets\importafter\microsoft.net.coreruntime.importafter.targets
+++Microsoft.NetNative.ImportAfter.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\microsoft.common.targets\importafter\microsoft.netnative.importafter.targets
+++Microsoft.NuGet.ImportAfter.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\microsoft.common.targets\importafter\microsoft.nuget.importafter.targets
+++Microsoft.VisualStudio.Azure.Fabric.ServiceProject.ImportAfter.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\microsoft.common.targets\importafter\microsoft.visualstudio.azure.fabric.serviceproject.importafter.targets
+++Microsoft.Web.ImportAfter.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\microsoft.common.targets\importafter\microsoft.web.importafter.targets
+++Xamarin.Common.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\current\microsoft.common.targets\importafter\xamarin.common.targets
+++Microsoft.DesktopBridge.Common.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\microsoft\desktopbridge\microsoft.desktopbridge.common.targets
+++Microsoft.Docker.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\sdks\microsoft.docker.sdk\build\microsoft.docker.targets
+++Microsoft.VisualStudio.Azure.Fabric.ServiceProject.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\microsoft\visualstudio\v17.0\service fabric tools\microsoft.visualstudio.azure.fabric.serviceproject.targets
+++Microsoft.Web.IISSupport.targets
+i:{0b8cd756-a2f9-4aa5-a58e-0c22661b0ba1}:c:\program files\microsoft visual studio\2022\professional\msbuild\microsoft\visualstudio\managed.web\microsoft.web.iissupport.targets

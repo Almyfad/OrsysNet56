@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Sélecteurs CSS</title>
+    <style>
+        body {
+            font-family: 'Segoe UI',Verdana,Arial;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .rouge {
+            color: red;
+        }
+
+        .big {
+            font-size: 25px;
+        }
+
+        /* Voisins directs */
+        div + p {
+            color: green;
+        }
+        
+		/* Voisins indirects */
+        div ~ p {
+            
+        }
+		
+        /* Enfants, même indirects */
+        div p {
+            color: orange;
+        }
+
+        /* Enfants directs */
+        div > p {
+            color: blue;
+        }
+
+        #pId {
+            color: #b200ff;
+        }
+
+        a, input {
+            display: block;
+            margin: 10px;
+        }
+
+            a[title]::after {
+                content: " (" attr(title) ")";
+            }
+			
+        input:focus {
+            border: 2px solid green;
+        }			
+				
+        ul li {
+            border-bottom: 2px solid green;
+        }
+
+            ul li:last-child {
+                border: none;
+            }
+    </style>  
+</head>
+<body>
+   
+    <p class="big rouge">Texte avec plusieurs classes</p>
+    <div>
+        <p id="pId">Paragraphe enfant de la Div avec ID (violet)</p>
+        <p>Paragraphe enfant de la Div (bleu)</p>
+        <p>Paragraphe enfant de la Div (bleu)</p>
+        <section>
+            <p>Paragraphe de la Section imbriquée dans la Div (orange)</p>
+        </section>
+    </div>
+    <p>Paragraphe suivant le Div (vert)</p>
+
+<a href="https://www.w3.org/TR/selectors/" target="_blank" title="Site de référence des selecteurs CSS">Lien vers W3C avec attribut title</a>
+    <a href="https://www.w3.org/TR/selectors/" target="_blank">Lien vers W3C sans attribut</a>
+    <form>
+        <input type="text" />
+        <input type="text" />
+        <ul>
+            <li>Premier élément de la liste</li>
+            <li>Deuxième élément de la liste</li>
+            <li>Troisième élément de la liste</li>
+        </ul>
+    </form>
+</body>
+</html>

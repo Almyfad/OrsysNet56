@@ -1,0 +1,235 @@
+=======================================================================================
+Résultat exercice : afficher la liste des participations dans la Vue Evenements/Details
+=======================================================================================
+
+	
+=========================================================================	
+Dans la même vue Evenements/Details, proposer l'association d'une adresse
+=========================================================================
+
+* Ajouter sous le détail :
+
+	<hr />
+	<div>
+		<h3>Adresse</h3>
+		
+		@if (Model.AdresseId.HasValue)
+		{
+			<p>@Model.Adresse.Titre</p>
+			<p>@Model.Adresse.Rue @Model.Adresse.CodePostal @Model.Adresse.Ville</p>
+			<p>@Model.Adresse.Region @Model.Adresse.Pays</p>
+			<p>@Model.Adresse.Notes</p>
+			<div>
+				<a asp-action="ea" asp-controller="Evenements"  asp-route-id="@Model.EvenementId">Retirer l'adresse</a>
+			</div>
+		}
+		else
+		{
+			<div>
+				<a asp-action="Create" asp-controller="Adresses" asp-route-id="@Model.EvenementId">Ajouter une adresse</a>
+			</div>
+		}
+	</div>
+
+
+=============================================
+Vue Adresses/Create : Recherche d'une adresse
+=============================================
+
+* Ajouter en début de page :
+
+@{
+    if (ViewBag.EvenementId != null)
+    {
+        <input type="hidden" value="@ViewBag.EvenementId" id="ide" />
+
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Nouvelle adresse pour l'événement @ViewBag.TitreEvenement</h2>
+
+                <div class="form-group">
+                    <a asp-action="Details" asp-controller="Evenements" asp-route-id="@ViewBag.EvenementId">Retour à l'événement</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h2>Recherche d'une adresse existante</h2>
+                <input id="ida" type="hidden" />                
+                <input type="text" id="txtCpVille" title="Entrez un Code postal ou une ville" placeholder="(Ville ou CP)" />
+                <input type="submit" value="Rechercher" id="btnRechercher" />
+                <div id="divResultats"></div>
+            </div>
+        </div>
+
+        <!-- Modal Static backdrop  -->
+        <div class="modal fade" id="divConfirm" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title" id="staticBackdropLabel">Lien avec une adresse</h3>
+                    </div>
+                    <div class="modal-body" id="libAd">
+                        Associer cette adresse au contact ?
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-bs-dismiss="modal">Annuler</button>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="btnCreer" >Ajouter</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <h2>Nouvelle adresse</h2>
+        <div>
+            <a asp-action="Index">Retour à la liste</a>
+        </div>
+    }
+}
+<hr />
+
+===========================
+RepoEvenements à compléter:
+===========================
+
+	 #region Gestion de l'adresse pour un événement
+
+	public async Task<int> AssocierAdresse(int ide, int ida)
+	{
+		string sql = $"Update Evenements Set AdresseId={ida} Where EvenementId={ide}";
+		return await _context.Database.ExecuteSqlRawAsync(sql);
+	}
+	public async Task<int> EffacerAdresse(int ide)
+	{
+		string sql = $"Update Evenements Set AdresseId=NULL Where EvenementId={ide}";
+		return await _context.Database.ExecuteSqlRawAsync(sql);
+	}
+	#endregion
+
+=========================
+Controleur API Evenements
+=========================
+
+    public class EvenementsController : ControllerBase
+    {
+        private readonly GevDbContext _context;
+
+        public EvenementsController(GevDbContext context)
+        {
+            _context = context;
+        }
+
+        // POST: api/evenements/ca/idev/idad
+        [HttpPost]
+        [Route("ca/{idev}/{idad}")]
+        public async Task<int> AssocierAdresse(string idev, string idad)
+        {
+            if (!int.TryParse(idev, out var ide) || !int.TryParse(idad, out var ida))
+            {
+                throw new ArgumentException($"Ids idEv={idev}, idAd{idad} invalides dans api/Evenements/ca !");
+            }
+
+            var repo = new RepoEvenements(_context);
+            return await repo.AssocierAdresse(ide, ida);
+        }
+    }
+	
+=======================
+Controleur API Adresses
+=======================
+
+    public class AdressesController : ControllerBase
+    {
+        private readonly GevDbContext _context;
+
+        public AdressesController(GevDbContext context)
+        {
+            _context = context;
+        }
+        // GET: api/Adresses/ra/cpVille
+        // Ex : https://localhost:44397/api/adresses/ra/redmond
+        [Route("ra/{cpville}")]
+        public IActionResult RechercheAdresses(string cpVille)
+        {
+            var req = int.TryParse(cpVille, out var cp) ?
+                _context.Adresses.AsQueryable().Where(it => it.CodePostal.Contains(cp.ToString())) :
+                _context.Adresses.AsQueryable().Where(it => it.Ville.Contains(cpVille));
+            var result = req.Select(it => new { it.AdresseId, it.CodePostal, it.Ville }).ToList();
+            return Ok(result);
+        }
+    }
+	
+=============================================================================
+Controleur Adresses : récupération de l'id de l'événement s'il a été transmis
+=============================================================================
+
+	// GET: Adresses/Create/EvenementId? avec nom du paramètre id prédéfini
+	public async Task<IActionResult> Create(int? id)
+	{
+		if (id.HasValue)
+		{
+			Evenement evenement = null;
+			var repo = new RepoEvenements(_repo.Context);
+
+			evenement = await repo.LireAsync(id.Value);
+
+			if (evenement == null)
+			{
+				return NotFound();
+			}
+
+			ViewBag.EvenementId = evenement.EvenementId;
+			ViewBag.TitreEvenement = evenement.Titre;               
+		}
+
+		return View();
+	}	
+
+	[HttpPost]
+	[ValidateAntiForgeryToken]
+	public async Task<IActionResult> Create([Bind("AdresseId,Titre,Rue,CodePostal,Ville,Region,Pays,Notes")] Adresse adresse,int? id)
+	{
+		if (ModelState.IsValid)
+		{
+			await _repo.Creer(adresse);
+
+			// Associer la nouvelle adresse à l'événement si on son Id
+			if (id.HasValue)
+			{
+				var repo = new RepoEvenements(_repo.Context);
+
+				var evenement = await repo.LireAsync(id.Value);
+
+				if (evenement == null)
+				{
+					return NotFound();
+				}
+				evenement.AdresseId = adresse.AdresseId;
+				await repo.Modifier(evenement);
+				return RedirectToAction(nameof(Details), "Evenements", new { id = id.Value });                    
+			}
+
+			return RedirectToAction(nameof(Index));
+		}
+		return View(adresse);
+	}
+	
+================================================
+Controleur Evenements : suppression de l'adresse
+================================================
+
+	[HttpGet]
+	[ActionName("ea")] // Delete Adresse
+	public async Task<IActionResult> EffacerAdresse(int id)
+	{
+		var evenement = await _repo.LireAsync(id);
+		if (evenement == null)
+		{
+			return NotFound();
+		}
+
+		await _repo.EffacerAdresse(id);
+		return RedirectToAction(nameof(Details), new { id = id });
+	}
+	
+	

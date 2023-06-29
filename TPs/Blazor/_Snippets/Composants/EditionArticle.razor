@@ -1,0 +1,46 @@
+﻿@page "/edition-article"
+@page "/edition-article/{Id}"
+
+<div class="col-8">
+    @if (!Saved)
+    {
+        <EditForm Model="@Article" OnValidSubmit="@Valider">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+            <div class="row">
+                <label for="Ville" class="col-sm-3 col-form-label">Ville : </label>
+                <div class="col-sm-8">
+                    <InputText id="Ville" class="form-control col-sm-8" @bind-Value="Article.Ville" placeholder="Entrer une ville"></InputText>
+                    <ValidationMessage class="offset-sm-3 col-sm-8" For="@(() => Article.Ville)" />
+                    <br>
+                </div>
+            </div>
+            <div class="row">
+                <label for="Date" class="col-sm-3 col-form-label">Date</label>
+                <div class="col-sm-8">
+                    <InputDate id="Date" class="form-control col-sm-8" @bind-Value="Article.Date" placeholder="Entrer une ville"></InputDate>
+                    <ValidationMessage class="offset-sm-3 col-sm-8" For="@(() => Article.Date)" />
+                    <br>
+                </div>
+            </div>
+            <div class="row">
+                <label for="Temperature" class="col-sm-3 col-form-label">Temperature : </label>
+                <div class="col-sm-8">
+                    <InputNumber id="Temperature" class="form-control col-sm-8" @bind-Value="Article.Temperature" placeholder="Entrer une temperature"></InputNumber>
+                    <ValidationMessage class="offset-sm-3 col-sm-8" For="@(() => Article.Temperature)" />
+                    <br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8 offset-3">
+                    <button type="submit" class="btn btn-primary">Enregistrer</button>
+                </div>
+            </div>
+        </EditForm>
+    }
+    else
+    {
+        <div class="alert @StatusClass">@Message</div>
+    }
+
+</div>

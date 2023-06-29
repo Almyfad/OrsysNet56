@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>JavaScript : éléments du langage</title>
+    <link href="../css/site.css" rel="stylesheet" />    
+</head>
+<body>
+    <h1>Éléments de langage</h1>
+    <hr />
+    <h2>Environnement</h2>
+    <ul>
+        <li>Compilation JIT selon le browser</li>
+        <li>Garbage collector</li>
+        <li>Gestion de type dynamique (le type d'une variable peut changer)</li>
+    </ul>
+    <h2>Syntaxe</h2>
+    <p>La syntaxe du JavaScript est basée sur celle de Java (elle même basée sur celle du langage C)</p>
+    <ul>
+        <li>Instructions terminées par une virgule</li>
+        <li>Commentaires avec // ou /* ... */</li>
+        <li>Variables, constantes et littéraux</li>
+        <li>En l'absence de la directive "use strict", une variable se déclare de manière optionnelle avec le mot réservé var.</li>
+        <li>Une variable se déclarer avec var ou let.</li>
+        <li>Avec var, une variable déclarée dans un bloc est visible à l'extérieur.</li>
+        <li>Blocs délimités par des accolades.</li>
+        <li>Structures de contrôle <strong>if, for, while, switch, catch</strong>, etc.</li>
+        <li>Approche objet par le biais de fonctions avec des prototypes (classe à partir de ES6, mais ).</li>
+        <li>Ensemble de données avec des tableaux (<strong>Array</strong>).</li>
+    </ul>
+    <h2>Conventions</h2>
+    <ul>
+        <li>Blocs délimités par des accolades commençant à droite et non pas à gauche comme en C#.</li>
+        <li>Casse <strong>Camel</strong> pour tous les symboles, excepté pour les constructeurs avec la casse <strong>Pascal</strong>.</li>
+        <li>Un seul espace devant une parenthèse ouvrante, excepté pour les fonctions.</li>
+    </ul>
+    <h2>Recommandations</h2>
+    <ul>
+        <li>Systématiser la directive "use strict";</li>
+        <li>Utiliser les opérateurs === et !== (et non pas == et !=)</li>
+        <li>Eviter la déclaration de variables à la racine du document dites "Globales".</li>
+        <li>Préférer let et const à var.</li>
+        <li>Délimiter les chaînes de caractères externes avec "" et utiliser les apostrophes en cas d'imbrication.</li>
+        <li>Regrouper la déclaration des variables en tête de fonction.</li>
+        <li>Déclarer les fonctions avant de les invoquer.</li>
+        <li>Éviter les opérateurs ++ et -- (x += 1 est plus explicite)</li>
+    </ul>
+</body>
+</html>

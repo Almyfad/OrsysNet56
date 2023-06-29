@@ -1,0 +1,244 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery</title>
+    <meta charset="utf-8" />
+    <link href="../css/site.css" rel="stylesheet" />
+    <style>
+        .gras {
+            font-weight: bold;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        td {
+            vertical-align: top;
+        }
+
+        input[type="button"] {
+            width: 300px;
+        }
+    </style>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>
+        function bonjourJQuery() {
+            $("#div1").html("Bonjour JQuery !");
+        }
+
+        $(function () {
+            "use strict";
+
+            /* Gestion des événements
+               ---------------------- */
+
+            // Avec une fn. nommée BonjourJQuery
+            //$("#btnBonjourJQ").on("click", bonjourJQuery);
+
+            // Avec une fn anonyme :
+            //$("#btnBonjourJQ").on("click", function () { alert("Bonjour jQuery !"); });
+
+            // Autres variantes :
+            //$("#btnBonjourJQ").bind("click", bonjourJQuery);
+            //$("#btnBonjourJQ").click(BonjourJQuery);
+
+            //$("#div1").on("mouseenter mouseleave", function () {
+            //    console.log("La souris entre ou sort de div1");
+            //});
+
+            //$("#div1").on("click", function (event) {
+            //    console.log("Objet event :");
+            //    console.dir(event);
+            //});
+
+
+            /* Acces DOM avec la méthode get()  */
+            $("#btnObjetDOM").on("click", function () {
+                var $objetJQ = $("#div1");
+                var objetDOM = $("#div1").get(0);
+                console.log($objetJQ);
+                console.log(objetDOM);
+            });
+
+            /* Manipulation du DOM
+              ----------------------- */
+
+            $("#btnHtmlDyn").on("click", function () {
+                // Ajouter un paragraphe à la fin de la #div1
+                var p = $("<p>Paragraphe ajouté dynamiquement par la méthode appendTo</p>").appendTo("#div1");
+                console.log(p.html());
+
+                // Variante sans récupération l'élément ajouté
+                //$("#div1").append("<p>Paragagraphe ajouté</p>");
+            });
+
+            // Lire le titre du document
+            $("#btnLireAttr").on("click", function () {
+                // Contrairement à la méthode text(), la méthode html interprète les tags HTML
+                $("#div1").html("Attr <strong>Title</strong> du document = " + $(document).attr("title"));
+            });
+
+            // Modifier le titre du document
+            $("#btnMajAttr").on("click", function () {
+                $(document).attr("title", "Titre du document MAJ");
+            });
+
+            $("#btnMajEnsembleAttributs").on("click", function () {
+                $("#lienW3").attr({
+                    title: "Apprendre le Web avec W3 School !",
+                    href: "http://www.w3schools.com/"
+                });
+            });
+
+            $("#btnSupprAttr").on("click", function () {
+                $("#lienW3").removeAttr("title");
+            });
+
+            $("#btnLargeurDiv").on("click", function () {
+                var largeur = $("#div1").width();
+                $("#div1").text("Largeur de div1=" + largeur);
+            });
+
+            /* Gestion des styles CSS
+               ----------------------- */
+
+            $("#btnAjouterStyle").on("click", function () {
+                $("a").addClass("gras");
+            });
+
+            $("#btnSupprimerStyle").on("click", function () {
+                $("a").removeClass("gras");
+            });
+
+            $("#btnToggleStyle").on("click", function () {
+                $("a").toggleClass("gras");
+            });
+
+
+            /* this : objet en cours */
+            $("#btnThis").on("click", function () {
+                $(this).css({
+                    borderWidth: "10px",
+                    borderStyle: "inset"
+                });
+            });
+
+            /* Utilitaires
+               ----------- */
+
+            $("#btnEachSelection").on("click", () => {
+                var $boutons = $("input[type='button']");
+                console.clear();
+
+                // Les objets parcourus sont les éléments du DOM
+                $.each($boutons, function (index, btn) {
+                    console.log("btn # " + index + " = " + btn.value);
+                });
+            });
+
+            $("#btnEachTableau").on("click", () => {
+                console.clear();
+                $.each(["Valeur 1", "Valeur 2", "Valeur 3", "Valeur 4"],
+                    function (index, valeur) {
+                        console.log("item # " + index + " = " + valeur);
+                    });
+            });
+
+            $("#btnInArray").on("click", () => {
+                var tab = ["Valeur 1", "Valeur 2", "Valeur 3", "Valeur 4"];
+                var index = $.inArray("Valeur 2", tab);
+                console.clear();
+
+                if (index > 0) {
+                    console.log("item trouvé  à la position " + index);
+                } else {
+                    console.log("item non trouvé !");
+                };
+            });
+
+            $("#btnInArrayBtns").on("click", () => {
+                var $boutons = $("input[type='button']");
+                var btn = $("#btnInArrayBtns").get(0);
+                console.clear();
+
+                var index = $.inArray(btn, $boutons);
+                if (index > 0) {
+                    console.log("Btn trouvé  à la position " + index);
+                } else {
+                    console.log("Btn non trouvé !");
+                };
+            });
+
+            // Masquer les liens cliqués
+            $("#btnPrevent").on("click", () => {
+                $("#div1").html("Les liens vont disparaître lorsqu'ils seront cliqués !");
+
+                $("a").click(function (event) {
+                    event.preventDefault();
+                    $(this).hide("slow");
+                });
+            });
+
+            $("#btnAnimation").on("click", () => {
+                $("#div1").slideToggle("slow");
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <h2>JQuery</h2>
+    <div id="div1">Une Div nommée div1</div>
+    <p><a href="http://jquery.com/" target="_blank">jQuery</a></p>
+    <p><a href="http://www.W3.org/" id="lienW3" target="_blank">W3</a></p>
+    <table>
+        <tr>
+            <td>
+                <h2>Événements : variantes d'abonnement</h2>
+                <input id="btnBonjourJQ" type="button" value="Bonjour JQuery" />
+                <h2>Gestion de la sélection</h2>
+                <input id="btnObjetDOM" type="button" value="Objet DOM vs objet jQuery" />
+                <br />
+                <input id="btnThis" type="button" value="This" />
+                <br />
+                <h2>Manipulation du DOM</h2>
+                <input id="btnHtmlDyn" type="button" value="HTML dynamique" />
+                <br />
+                <input id="btnLireAttr" type="button" value="Lire attribut" />
+                <br />
+                <input id="btnMajAttr" type="button" value="Maj d'un attribut" />
+                <br />
+                <input id="btnMajEnsembleAttributs" type="button" value="Maj d'un ensemble d'attributs" />
+                <br />
+                <input id="btnSupprAttr" type="button" value="Suppression d'un attribut" />
+                <br />
+                <input id="btnLargeurDiv" type="button" value="Afficher la largeur de #div1" title="Exercice" />
+            </td>
+            <td>
+                <h2>Gestion des styles</h2>
+                <input id="btnAjouterStyle" type="button" value="Ajouter style gras" />
+                <br />
+                <input id="btnSupprimerStyle" type="button" value="Retirer style gras" />
+                <br />
+                <input id="btnToggleStyle" type="button" value="Toggle du style gras" />
+                <h2>Utilitaires</h2>
+                <input id="btnEachSelection" type="button" value="Itération d'une sélection" />
+                <br />
+                <input id="btnEachTableau" type="button" value="Itération d'un tableau" />
+                <br />
+                <input id="btnInArray" type="button" value="inArray" />
+                <br />
+                <input id="btnInArrayBtns" type="button" value="inArray boutons" />
+                <br />
+                <input id="btnPrevent" type="button" value="preventDefault" />
+                <br />
+                <input id="btnAnimation" type="button" value="Animation" />
+                <br />
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+
+

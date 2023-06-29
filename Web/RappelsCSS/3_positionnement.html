@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Positionnement CSS</title>
+    <link href="rappels.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        body {
+            height: 2000px;
+        }
+
+        .fixe {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
+
+        .absolu {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            color: Red;
+        }
+
+		strong {
+            position: relative;
+            top: 5px;
+            color: orange;
+        }
+		
+        .etire {
+            position: absolute;
+            top: 75%;
+            bottom: 10%;
+            left: 0;
+            right: 0;
+            padding: 20px;
+            background: yellowgreen;
+        }
+
+		.centreH {
+			background: silver;
+			width: 400px;
+			height: 100px;
+			margin : 0 auto;
+		}
+				
+        .centreHVR {
+            position: absolute;
+            top: 40%;
+            bottom: 40%;
+            left: 40%;
+            right: 40%;
+            padding: 20px;
+            background: cadetblue;
+			/* display:none; */
+        }
+
+		.parent {
+			position: absolute;
+			left : 0;
+			width: 100%;
+		}
+		
+		.centreHV {
+			width:100px;
+			height:100px;
+            background: orange;
+			margin: 0 auto;	
+        }
+
+    </style>
+</head>
+<body>
+    <div class="absolu">
+        Bloc positionné en absolu : sort du flux
+    </div>
+    <div class="fixe">
+        Bloc fixé : même principe qu'absolu, mais reste fixe dans la fenêtre.
+    </div>
+
+    <p>
+        Un élément positionné en absolu se place par rapport à son 1er parent positionné, cad avec un attribut position != static (absolute, relative (recommandé) ou fixed).
+    </p>
+    <p>
+        Un élément positionné en absolu devient redimensionnable et s'ajuste automatiquement à la taille de son contenu. De +, la fusion des mages ne s'applique plus. Je suis <strong>décalé</strong>
+        grâce à un positionnement relatif. Un élément positionné en relatif sans décalage sert généralement de référant pour un fils positionné en absolu.
+    </p>
+    <p class="etire">
+        Paragraphe étiré : le padding, marges et bordures ne s'additionnent pas, contrairement à width 100%.
+    </p>
+	    <div class="centreH">
+        Bloc centré dans la largeur de la page.
+    </div>
+    <div class="centreHVR">
+        Bloc centré redimensionnable dans la page.
+    </div>
+	<div class="parent">
+		<div class="centreHV">
+		 Bloc centré dans la page.
+		</div>
+	</div>
+</body>
+</html>

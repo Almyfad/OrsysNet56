@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntroAspNet", "IntroAspNet\IntroAspNet.csproj", "{0B8CD756-A2F9-4AA5-A58E-0C22661B0BA1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetMVC", "..\AspNetMVC\AspNetMVC\AspNetMVC.csproj", "{CA5D1344-5FCA-49AD-B7B7-DCD3C7BD9D47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B8CD756-A2F9-4AA5-A58E-0C22661B0BA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B8CD756-A2F9-4AA5-A58E-0C22661B0BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B8CD756-A2F9-4AA5-A58E-0C22661B0BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B8CD756-A2F9-4AA5-A58E-0C22661B0BA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA5D1344-5FCA-49AD-B7B7-DCD3C7BD9D47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA5D1344-5FCA-49AD-B7B7-DCD3C7BD9D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA5D1344-5FCA-49AD-B7B7-DCD3C7BD9D47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA5D1344-5FCA-49AD-B7B7-DCD3C7BD9D47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9755541-2FE6-4A01-9F55-95FB22E66D1E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+{
+  "name": "saas.compiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch css/:../wwwroot/css/site.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.22",
+    "sass": "^1.63.6",
+    "yaml": "^2.3.1"
+  }
+}

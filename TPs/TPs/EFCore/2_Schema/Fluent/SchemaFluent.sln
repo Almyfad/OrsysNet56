@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchemaFluent", "SchemaFluent\SchemaFluent.csproj", "{8651BBB5-708F-4C00-A747-40CD2814059A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modele", "Modele\Modele.csproj", "{09A72638-85E3-4988-B833-FA2D7E69DB87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8651BBB5-708F-4C00-A747-40CD2814059A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8651BBB5-708F-4C00-A747-40CD2814059A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8651BBB5-708F-4C00-A747-40CD2814059A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8651BBB5-708F-4C00-A747-40CD2814059A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09A72638-85E3-4988-B833-FA2D7E69DB87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09A72638-85E3-4988-B833-FA2D7E69DB87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09A72638-85E3-4988-B833-FA2D7E69DB87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09A72638-85E3-4988-B833-FA2D7E69DB87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF537D34-7977-4021-859E-0095B0F43BEC}
+	EndGlobalSection
+EndGlobal

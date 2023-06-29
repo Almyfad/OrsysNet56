@@ -1,0 +1,32 @@
+﻿@page "/fiche-article"
+@page "/fiche-article/{Id}"
+
+<div class="col-sm-8">
+    <div class="row">
+        <label class="col-sm-4 col-form-label">Id</label>
+        <div class="col-sm-8">
+            <label type="text" class="form-control-plaintext">@Article?.Id</label>
+        </div>
+    </div>
+    <div class="row">
+        <label class="col-sm-4 col-form-label">Date</label>
+        <div class="col-sm-8">
+            <label type="text" readonly class="form-control-plaintext">@Article?.Date</label>
+        </div>
+    </div>
+    <div class="row">
+        <label class="col-sm-4 col-form-label">Temperature</label>
+        <div class="col-sm-8">
+            <label type="text" readonly class="form-control-plaintext">@Article?.Temperature</label>
+        </div>
+    </div>
+    <div class="row">
+        <label class="col-sm-4 col-form-label">Ville</label>
+        <div class="col-sm-8">
+            <label type="text" readonly class="form-control-plaintext">@Article?.Ville</label>
+        </div>
+    </div>
+</div>
+
+<hr />
+<button class="btn btn-primary">Edition</button>

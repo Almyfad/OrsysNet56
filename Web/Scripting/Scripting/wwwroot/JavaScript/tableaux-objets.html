@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Objets et tableaux JavaScript</title>
+    <link href="../css/site.css" rel="stylesheet" />
+    <script src="exemples.js"></script>
+</head>
+<body>
+    <h1>Objets et tableaux</h1>
+    <div id="msg"></div>
+    <hr />
+    <h2>Tableaux</h2>
+    <script>
+        var tabMix = ["Texte", 12, true];
+
+        // console.log("1ère cellule de tabMix : " + tabMix[0]);
+
+        // Exemples de méthodes disponibles sur un tableau
+        // Recherche dans un tableau avec les Mt indexOf et lastIndexOf
+        // console.log(tabMix.indexOf("Texte"));
+
+        /* Dimensionnement automatique d'après l'index le plus élevé */
+        var tabDyn = [];
+        tabDyn[0] = 10;
+        tabDyn[1] = 20;
+        // tabDyn[2] = undefined;
+        tabDyn[3] = 30;
+
+        /* Parcours avec for + index */
+        for (var i = 0; i < tabDyn.length; i++) {
+            //if (i > 2) {
+            //    break;
+            //}
+            //console.log("tabDyn[" + i + "] : " + tabDyn[i]);            
+        }
+
+        /* Parcours avec for ~ foreach */
+        for (var index in tabDyn) {
+            // Attention : les éléments obtenus par un for sont les index et non pas les éléments du tableau
+            //console.log(index);  
+
+            // Pour obtenir le contenu du tableau 
+            //console.log(tabDyn[index]);
+        }
+
+        /* Un tableau peut également s'afficher directement (alert, console, etc.), avec une virgule en séparateur */
+        // console.log(tabDyn);
+
+        /* Méthodes push et pop pour ajouter un élément à la fin du tableau ou extraire le dernier élément. 
+           Les Méthodes shift et unshift font la même chose avec le 1er élément du tableau */
+        var tabMultiplicationPar2 = [];
+        for (var i = 0; i < 11; i++) {
+            tabMultiplicationPar2.push(i * 2);
+        }
+
+        // console.log(tabMultiplicationPar2);
+
+        // Rm : autre possibilité pour ajouter un élément à la fin d'un tableau : 
+        //      affecter la nouvelle valeur à l'index fourni par la Pté length.
+
+        // Affichage (et retrait) du dernier élément du tableau
+        // console.log("Dernière cellule tabMultiplicationPar2  : " + tabMultiplicationPar2.pop());
+
+        /* Parcours avec la Mt [].forEach permettant d'invoquer une fonction sur chaque élément */
+        var listeValeurs = ["valeur1", "valeur2", "valeur3"];
+
+        function afficherValeur(element, index) {
+            console.log("listeValeurs[" + index + "] : " + element);
+        }
+
+        //listeValeurs.forEach(afficherValeur);
+
+        function formaterValeur(element, index) {
+            var newVal = this[index] = element.toUpperCase();
+            console.log("newVal (this[index]) : " + newVal);
+        }
+
+        //listeValeurs.forEach(formaterValeur);
+        // Le tableau n'est pas modifié
+        //console.log(listeValeurs);
+
+        // Possibilité de récupérer le résultat dans un autre (voire le même) tableau s'il est fourni en 2ème argument
+        var listeResultats = [];
+        listeValeurs.forEach(formaterValeur, listeResultats);
+
+        // console.log(listeValeurs);
+        // console.log(listeResultats);
+    </script>
+    <h2>Objets littéraux</h2>
+    <script>
+        "use strict";
+
+        // Littéral objet (JSON)
+        var contact = { nom: "Martin", prenom: "Jean", age: 38 };
+
+        //afficherMessage("Objet contact : " + contact.nom + " " + contact.prenom + " " + contact.age);
+        //afficherMessage("Objet contact : " + contact["nom"] + " " + contact["prenom"] + " " + contact["age"]);
+        //afficherMessage("Pté email non définie : " + contact.email);
+
+        // Ajout d'une Pté
+        // contact.email = "jean@domaine.com"; // ou contact["email"] = "jean@domaine.com";
+        // console.log("Pté email définie dynamiquement : " + contact.email);
+
+        // Test d'existence d'une Pté
+        // console.log(contact.hasOwnProperty("email"));
+
+        for (var pte in contact) {
+            // console.log(pte + "=" + contact[pte]);
+        }
+
+        // Objets imbriqué
+        var contactAvecAdresse = {
+            nom: "Martin",
+            prenom: "Jean",
+            age: 38,
+            adresse: {
+                rue: "rue des Langages",
+                ville: "JavaScript"
+            }
+        };
+
+        //console.log(contactAvecAdresse.nom + " " + contactAvecAdresse.adresse.rue);       
+    </script>
+
+    <h2>Définir des méthodes</h2>
+    <p>Une méthode se défini (ou s'ajoute) à un objet avec la même syntaxe qu'une propriété, dont la valeur est une fonction anonyme.</p>
+
+    <script>
+        //var contact = { nom: "Martin", prenom: "Jean", age: 38 };
+        //contact.afficherMsg = function (msg) { alert(msg); }
+
+        var contactAvecMethode = {
+            nom: "Martin",
+            prenom: "Jean",
+            age: 38,
+            afficherMsg: function (msg) {
+                alert(msg);
+            }
+        };
+
+        //contactAvecMethode.afficherMsg("Hello !");
+    </script>
+
+    <h2>Zoom sur le mot réservé this</h2>
+    <p>L'objet <strong>this</strong> varie selon le contexte qui peut être :</p>
+    <ul>
+        <li>L'objet global <strong>window</strong></li>
+        <li>L'objet qui a déclenché l'événement dans un gestionnaire d'événement.</li>
+        <li>Une fonction</li>
+        <li>Un objet littéral</li>
+        <li>Un objet transmis par la méthode <strong>call</strong> ou <strong>apply</strong> (voir POO en JavaScript)</li>
+    </ul>
+    <script>
+        var contact = {
+            nom: "Martin",
+            prenom: "Jean",
+            age: 38,
+            afficher: function () {
+                // En l'abscence du préfixe this, le contexte est l'objet global window
+                // Accès aux ptés de l'objet
+                alert(this.nom + " " + this.prenom + " a " + this.age + " ans !");
+            }
+        };
+
+        //contact.afficher();
+
+    </script>
+
+    <input type="button" id="btnThis" value="this dans le contexte d'un gestionnaire d'événement" onclick="alert(this.id);" />
+    
+    <h2>Différencier un tableau d'un objet</h2>
+    <script>
+        
+        //console.log((typeof contact) === "object");         // true
+        //console.log((typeof listeValeurs) === "object");    // true
+        //console.log(Array.isArray(contact));                // false
+        //console.log(Array.isArray(listeValeurs));           // true
+    </script>
+    <section class="references">
+        <h1>Références et exemples</h1>
+        <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Collections_index%C3%A9es" target="_blank">Collections indexées : exemples MDN</a>
+    </section>
+</body>
+</html>

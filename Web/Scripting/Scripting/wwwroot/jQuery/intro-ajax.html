@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>AJAX avec jQuery</title>
+    <link href="../css/site.css" rel="stylesheet" />
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>
+            $(function() {
+                $("#btnChargerHTML").click(function () {
+                    // Recup d'un bloc HTML
+                    //$("#divMsg").load("aide.html");
+
+                    // Avec filtrage sur un ID (une fois le doc chargé côté client)
+                    // Attention à respecter l'espace avant l'ID !
+                    //$("#divMsg").load("aide.html #References")
+
+                    // Avec Callback d'erreur
+                    $("#divMsg").load("aide.html", null,
+                        function (response, status, xhr) {
+                            if (status === "error") {
+                                $("#divMsg").html("Erreur de chargement : " +
+                                    xhr.status + " " + xhr.statusText);
+                            }
+                        });
+                });               
+            });
+    </script>
+</head>
+<body>
+    <h1>AJAX avec jQuery</h1>
+
+    <h2>Méthode LOAD</h2>
+
+    <div id="divMsg">
+        <h3>Charger un fichier/bloc HTML</h3>
+        <p>Le contenu de cette div va être modifié ...</p>
+    </div>
+    <button type="button" id="btnChargerHTML">Modifier le contenu de la div ...</button>
+</body>
+</html>

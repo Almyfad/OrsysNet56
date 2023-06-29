@@ -1,0 +1,32 @@
+﻿[
+  {
+    "id": 1,
+    "date": "2022-05-06",
+    "temperature": 23,
+    "ville": "Lille"
+  },
+  {
+    "id": 2,
+    "date": "2022-05-06",
+    "temperature": 24,
+    "ville": "Brest"
+  },
+  {
+    "id": 3,
+    "date": "2022-05-06",
+    "temperature": 27,
+    "ville": "Lyon"
+  },
+  {
+    "id": 4,
+    "date": "2022-05-06",
+    "temperature": 26,
+    "ville": "Bordeaux"
+  },
+  {
+    "id": 5,
+    "date": "2022-05-06",
+    "temperature": 28,
+    "ville": "Marseille"
+  }
+]

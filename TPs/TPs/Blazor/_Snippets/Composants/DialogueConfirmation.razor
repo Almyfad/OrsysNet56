@@ -1,0 +1,23 @@
+﻿@*Ajouter les classes show et d-block pour afficher la div par défaut*@
+@if (Visible)
+{
+    <div class="modal fade show d-block" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Confirmation</h5>
+                    <button type="button" class="close" @onclick="@Masquer" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                   Etes-vous sûr de vouloir supprimer @DesignationArticle ?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" @onclick="@Masquer">Non</button>
+                    <button type="button" class="btn btn-primary" @onclick="@Supprimer">Oui</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}

@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7110fab3-bd3d-4a57-88f5-5c4e79a8ca4d": {
+      "ProjectGuid": "7110fab3-bd3d-4a57-88f5-5c4e79a8ca4d",
+      "DisplayName": "GestionEvenements",
+      "ColorIndex": 0
+    },
+    "1086ec29-7cb3-4e60-8d27-04d4108c3cdd": {
+      "ProjectGuid": "1086ec29-7cb3-4e60-8d27-04d4108c3cdd",
+      "DisplayName": "Modele",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

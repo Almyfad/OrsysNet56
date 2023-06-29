@@ -1,0 +1,48 @@
+* Compléter RepoEvenements avec :
+
+	public IQueryable<Evenement> EvenementsTries(string sensTri)
+	{
+		if (string.IsNullOrEmpty(sensTri)) sensTri = "titre";
+	   
+		IQueryable<Evenement> evenements = Context.Evenements;
+
+		switch (sensTri)
+		{
+			case "titre":
+				evenements = evenements.OrderBy(s => s.Titre);
+				break;
+			case "titre_desc":
+				evenements = evenements.OrderByDescending(s => s.Titre);
+				break;
+			case "annee":
+				evenements = evenements.OrderBy(s => s.Annee);
+				break;
+			case "annee_desc":
+				evenements = evenements.OrderByDescending(s => s.Annee);
+				break;
+			default:
+				evenements = evenements.OrderBy(s => s.Titre);
+				break;
+		}
+		
+		return evenements.AsQueryable();
+	}
+		
+* Dans EvenementsController :
+	
+	using X.PagedList;
+
+	public ViewResult Index(string sensTri, int? page)
+	{
+		int nbrLignes = 3;
+		if (string.IsNullOrEmpty(sensTri)) sensTri = "titre";
+		ViewBag.SensTri = sensTri;
+		ViewBag.TriTitre = sensTri == "titre" ? "titre_desc" : "titre";
+		ViewBag.TriAnnee = sensTri == "annee" ? "annee_desc" : "annee";
+
+		int numPage = page ?? 1;
+		return View(_repo.EvenementsTries(sensTri).ToPagedList(numPage, nbrLignes));
+	}		
+
+	
+	

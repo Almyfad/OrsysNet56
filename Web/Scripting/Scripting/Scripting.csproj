@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <!--<ItemGroup>
+    <Content Remove="wwwroot\css\exemples.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\jQuery\CarouselSimple_V1.html" />
+    <None Include="wwwroot\jQuery\CarouselSimple_V2.html" />
+    <None Include="wwwroot\jQuery\CarrouselAnime.html" />
+    <None Include="wwwroot\jQuery\jquery.html" />
+  </ItemGroup>-->
+
+</Project>

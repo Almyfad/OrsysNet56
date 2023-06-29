@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Types prédéfinis JavaScript</title>
+    <link href="../css/site.css" rel="stylesheet" />
+    <script src="exemples.js"></script>
+</head>
+<body>
+    <h1>Types primitifs (immuables)</h1>
+    <ul>
+        <li><strong>Number</strong> : (format IEEE-754) un seul type pour le numérique, avec ou sans partie décimale, en notation sctientifique (12.3E+8), octale avec 0 en préfixe ou hexa avec 0x.</li>
+        <li><strong>Boolean</strong> : litéraux true et false. Toute expression dont la valeur est 0, null, undefined ou "" est évaluée à false. Tout le reste est évalué à true.</li>
+        <li><strong>String</strong> : délimité par des guillemets (par convention) ou apostrohes (si besoin d'imbrication), avec caractères spéciaux (<strong>\n</strong> pour le saut de ligne par exemple).</li>        
+        <li><strong>undefined</strong>  : variable non initialisée ou inexistante.</li>
+        <li><strong>null</strong>  : généralement obtenu par une affectation pour indiquer une abscence de valeur/résultat.</li>
+    </ul>
+    <hr />
+    <p><strong>Remarques :</strong></p>
+    <ul>
+        <li>Les types primitifs <strong>Number</strong>, <strong>Boolean</strong> et <strong>String</strong> sont de type valeur.</li>
+        <li>Les objets <strong>Number, Boolean, String, Math, Array, Object, Date, Error, Function, Global, JSON</strong> et <strong>RegExp</strong> existent sous la forme d'objets globaux.</li>
+    </ul>
+    <hr />
+    <p><strong>Exemples :</strong></p>
+    <div id="msg"></div>
+    <hr />
+    <h2>Nombres</h2>
+    <ul>
+        <li>JavaScript effectue les conversions implicites à chaque fois que c'est possible.</li>
+        <li>L'objet <strong>Number</strong> fournit les propriétés <strong>MIN_VALUE, MAX_VALUE, POSITIVE_INFINITY, NEGATIVE_INFINITY</strong>. Une conversion peut être contrôlée et effectué par les méthodes globales <strong>isNaN</strong>, <strong>parseInt</strong> et <strong>parseFloat</strong>..</li>
+    </ul>
+
+    <script>
+        //afficherMessage("isNaN('Hello !'): " + isNaN("Hello !"));
+        //afficherMessage("isNaN(2): " + isNaN(2));
+        //afficherMessage("isNaN(2.5): " + isNaN(2.5));
+        //afficherMessage("isNaN(2 / 0): " + isNaN(2 / 0));
+        //afficherMessage("isNaN('2'): " + isNaN('2')); // Conversion implicite
+        //afficherMessage("100 + '50': " + isNaN(100 + "50"));
+    </script>
+
+    <h2>String</h2>
+    <p>L'objet <strong>String</strong> propose de nombreuses propriétés (notamment lenght) et méthodes permettant de manipuler une chaîne de caractères.</p>
+    <script>
+        // texte1 : Convention à privilégier
+        var texte1 = "JavaScript est un langage 'dynamique' !";
+        var texte2 = 'JavaScript est un langage "dynamique" !';
+        var texte3 = 'JavaScript est un langage \'dynamique\' !';
+
+        // Une chaîne est un tableau de caractères
+        var car = texte1[4];
+        //afficherMessage(car);
+
+        var mots = texte1.split(" ");
+        //afficherMessage(mots);
+
+        var index = texte1.indexOf("Java");
+        //afficherMessage("indexOf de 'Java' : " + index); // 0
+
+        index = texte1.search(/Java/);
+        //afficherMessage("search de /Java/ : " + index); // 0
+
+        var texteAvecNombre = "Visual Studio 2030 sera dans le cloud !";
+
+        // Recherche d'une série de 4 chiffres
+        index = texteAvecNombre.search(/[0-9]{4}/);
+        //afficherMessage("search de /[0-9]{4}/ : " + index);  // 14
+    </script>
+
+    <h2>Booléen</h2>
+    <p>Les opérateurs de comparaison <strong>==</strong> (comparaison de valeurs, avec conversions implicites) et <strong>===</strong> (comparaison des valeurs ET des types : à privilégier).</p>
+    <script>
+        //afficherMessage(0 == false); // true
+        //afficherMessage(0 === false); // false
+
+        //afficherMessage(0 != false); // false
+        //afficherMessage(0 !== false); // true
+
+        n = 10;
+        //afficherMessage(n == "10"); // true
+        //afficherMessage(n === "10"); // false
+    </script>
+
+    <h2>Les primitives null et undefined</h2>
+    <p>Les variables déclarées à la racine du document sont dites "Globales" (à éviter)</p>
+    <p>Une variable variables déclarées à la racine du document sont dites "Globales" (à éviter)</p>
+    <script>
+        var varGlobale = 2;
+        var a;
+
+        // afficherMessage("window.nondefini == undefined: " + (window.nondefini == undefined));       // True
+        // afficherMessage("window.varGlobale == undefined: " + (window.varGlobale == undefined));     // False
+        // afficherMessage("a == null: " + (a == null));                                               // True
+        // afficherMessage("a === null: " + (a === null));                                             // False
+    </script>
+
+    <h2>Réflexion</h2>
+    <p>L'opérateur <strong>typeof</strong> permet de connaître le type d'une expression.</p>
+
+    <script>
+        //afficherMessage("typeof n : " + (typeof 2)); // "number"
+        //afficherMessage("typeof s : " + (typeof "texte")); // "string"
+        //afficherMessage("typeof (1===1) : " + (typeof (1 === 1))); // "boolean"
+        //afficherMessage("typeof ({nom:'Martin', prenom:'Jean'}) : " + (typeof ({nom:"Martin", prenom:"Jean"}))); // "object"
+        // afficherMessage("typeof (null) : " + (typeof (null))); // "object"
+    </script>
+
+    <section class="references">
+        <h1>Références et exemples</h1>
+        <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Data_structures" target="_blank">Types de données JavaScript</a>
+        <a href="http://www.w3schools.com/jsref/jsref_obj_number.asp" target="_blank">Les nombres</a>
+        <a href="http://www.w3schools.com/jsref/jsref_obj_string.asp" target="_blank">Les chaînes de caractères</a>
+        <a href="http://www.w3schools.com/jsref/jsref_obj_boolean.asp" target="_blank">Les Booléens</a>
+        <a href="http://www.w3schools.com/jsref/jsref_obj_date.asp" target="_blank">Les dates</a>
+    </section>
+</body>
+</html>

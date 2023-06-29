@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Flottement</title>
+    <link href="rappels.css" rel="stylesheet" type="text/css" />
+    <style>
+        .conteneur {
+            background-color: lightgray;
+            height: 50px;
+            /* Empêche les débordements :*/
+			/* (la pté height n'est plus utile) */
+			/*  display: table-cell; */
+        }
+
+        .floatLeft {
+            float: left;
+            width: 200px;
+            margin-right: 10px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div style="background:greenyellow;height:50px;">
+        <p class="floatLeft">
+            Paragraphe flottant à gauche : débordement du parent, car la hauteur d'un élément flottant n'est pas prise en compte par le conteneur.
+        </p>
+        <p class="floatLeft">
+            Autre paragraphe flottant à gauche : idem.
+        </p>
+    </div>
+    <div style="clear:both">
+        <div class="conteneur">
+            <div class="floatLeft">
+                Div flottant dans un BFC (avec display: table-cell/inline-block)
+            </div>
+            <div class="floatLeft">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Quisque ornare ipsum at erat. Quisque elementum tempus urna. Donec ornare fringilla erat. Phasellus gravida lectus vel dui.
+                Fusce eget justo at odio posuere dignissim. Sed porta, turpis sit amet viverra rhoncus, mauris urna interdum erat, nec semper dui diam ut libero.
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+Ajouter au DbContext
+===================
+
+	public string Migrer()
+	{
+		try
+		{
+			var migrations = Database.GetPendingMigrations().ToList();
+			if (migrations.Count == 0)
+			{
+				return "Aucune migration en attente.";
+			}
+			else
+			{
+				Database.Migrate();
+				return "Migration terminée !";
+			}
+		}
+		catch(Exception ex)
+		{
+			return "Echec de la migration : " + ex.Message;
+		}
+	}
+
+===================
+Controlleur	DbTools
+===================
+
+	// [Authorize] à activer + tard
+	public class DbToolsController : Controller
+	{
+		private GevDbContext _context;
+		public DbToolsController(GevDbContext context)
+		{
+			_context = context;
+		}
+		public IActionResult Index(string message)
+		{
+			int nbrEvenements = _context.Evenements.Count();
+			int nbrParticipants = _context.Participants.Count();
+			int nbrParticipations = _context.Participations.Count();
+			int nbrUtilisateurs = _context.Users.Count();
+
+			ViewBag.NbrEvenements = nbrEvenements;
+			ViewBag.NbrParticipants = nbrParticipants;
+			ViewBag.NbrParticipations = nbrParticipations;
+			ViewBag.NbrUtilisateurs = nbrUtilisateurs;
+			ViewBag.Message = message;
+
+			return View();
+		}
+		public IActionResult Migration()
+		{
+			string info = _context.Migrer();
+			return RedirectToAction(nameof(Index), new { message = info });
+		}
+	}	

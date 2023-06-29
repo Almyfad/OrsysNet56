@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="../css/site.css" rel="stylesheet" />
+    <script src="exemples.js"></script>
+    <title>Fonctions</title>
+</head>
+<body>
+    <h1>Fonctions</h1>
+    <h2>Exemples :</h2>
+    <br />
+    <div id="msg"></div>
+
+    <h2>Règles concernant les fonctions</h2>
+    <ul>
+        <li>Une fonction retourne toujours une valeur. En l'absence d'instruction <strong>return</strong> ou avec un <strong>return</strong> sans valeur, le résultat est <strong>undefined</strong>.</li>
+        <li>La notion de signature n'existe pas : les arguments sont définis à titre informatif.</li>
+        <li>La notion de surcharge n'existe pas : à l'instar des variables en cas de redéfinition d'une fonction de même nom dans la même portée (déconseillé), c'est la plus proche qui est utilisée.</li>
+        <li>Toute fonction dispose d'un tableau <strong>arguments</strong> permettant de connaître la liste des arguments qui lui ont été transmis.</li>
+        <li>Les types primitifs sont transmis par valeur, les autres (objet spécifique ou tableau) par référence.</li>
+        <li>Une variable peut être utilisée avant d'être déclarée (déconseillé). Dans ce cas, le compilateur le remonte automatiquement en début de fonction avec la valeur <strong>undefined</strong> (mécanisme de <em>hoisting</em>).</li>
+        <li>Les fonctions sont le seul moyen de limiter la portée d'une variable.  Une variable déclarée en dehors d'une fonction est dite <strong>globale</strong>, c'est-à-dire accessible dans tous les scripts du document (page).</li>
+        <li>Les fonctions peuvent être imbriquées. C'est grâce à ce mécanisme que l'on obtient le pattern de <em>Closure</em>.</li>
+        <li>Une fonction peut être anonyme et référencée par une variable (principe du délégué .NET).</li>
+        <li>Une fonction, qu'elle soit anonyme ou non, peut être auto-exécutée.</li>
+    </ul>
+
+    <script>
+        /* Appel de fonction avec arguments
+           --------------------------------- */
+
+        function somme(a, b) {
+            return a + b;
+        }
+
+        var resultat = somme(2, 4.5);
+        //afficherMessage("Appel fn. standard : " + resultat);
+
+        //afficherMessage("Résultat NaN avec un argument manquant : " + somme(2));
+
+        //afficherMessage("Les arguments en trop sont ignorés : " + somme(1,2,3));
+
+        /* Une fonction possède la pté length permettant de connaître le nombre d'arguments déclarés */
+        //afficherMessage("Nbr d'arguments de la fn. somme : " + somme.length);
+
+        /* Ainsi qu'une propriété arguments qui fournit la liste des arguments, possédant elle aussi la Pté length */
+        function listeArguments() {
+            afficherMessage("Nbr d'arguments : " + arguments.length);
+
+            for (var i = 0; i < arguments.length; i++) {
+                afficherMessage("    argument " + i + " : " + arguments[i]);
+            }
+        }
+
+        //listeArguments("a1");
+        //listeArguments("a1", "a2", "a3");
+    </script>
+
+    <script>
+        /* Déclaration et visibilité des variables (scope)
+           ----------------------------------------------- */
+
+        /* L'usage du mode strict permet d'imposer la déclaration des variables  */
+        // "use strict";
+
+        /* Une variable déclarée en dehors d'une fonction est globale */
+        var portee = "globale";
+
+        /* Une variable peut en cacher une autre */
+        function fnPortee() {
+            var portee = "locale";
+            return portee;
+        }
+
+        //afficherMessage("var portee : " + portee);
+        //afficherMessage("fnPortee : " + fnPortee());
+
+        /* Une variable locale déclarée sans var devient globale : à proscrire ! */
+        function porteeGlobaleSansVar() {
+            vSansVar = "Variable déclarée dans une fonction sans var : globale";
+        }
+
+        // porteeGlobaleSansVar provoque une erreur si le mode Strict est activé au niveau du script (à systématiser)
+        //porteeGlobaleSansVar();
+        //afficherMessage(vSansVar);
+
+        /* Les blocs ne limitent pas la portée des variables.
+           Idem pour l'index d'une boucle for !  */
+
+        function porteeVar() {
+            var a = 5;
+            if (true) {
+                var b = a * 2;
+            }
+            // b est visible si le bloc a été exécuté
+            return b;
+        }
+
+        //afficherMessage("Les blocs ne limitent pas la portée des variables : " + porteeVar());
+
+        // Remarque : le mot réservé let permet de déclarer une variable de portée bloc
+        // dans l'exemple ci-dessus, la variable b déclarée avec let ne serait pas défini dans la dernière instruction return.
+
+        function porteeLet() {
+            var a = 5;
+            if (true) {
+                let b = a * 2;
+            }
+            // b n'est pas visible si le bloc a été exécuté : erreur avec b undefined
+            return b ;
+        }
+
+        //afficherMessage("Les blocs ne limitent pas la portée des variables : " + porteeLet());
+
+        /* Les fonctions peuvent être imbriquées */
+        function hypotenuse(longueur, hauteur) {
+
+            function carre(n) {
+                return n * n;
+            }
+
+            return Math.sqrt(carre(longueur) + carre(hauteur));
+        }
+
+        //afficherMessage("Les fonctions peuvent être imbriquées : " + hypotenuse(3, 5));
+    </script>
+
+    <script>
+        /* Mot réservé this dans une fonction */
+
+        "use strict";
+
+        var contact = { nom: "Martin", prenom: "Jean", age: 38 };
+
+        // Contexte de la fonction : undefined à partir de IE 10 ou objet global (window) sous IE9-
+        var f = function () {
+            afficherMessage(this);
+            if (this != undefined && this === contact) {
+                afficherMessage("nom : " + this.nom + ", prenom : " + this.prenom);
+            }
+        };
+
+        // f();
+
+        // La méthode bind permet de spécifier l'objet à utiliser en tant que contexte d'une fonction
+        var fb = f.bind(contact);
+        //fb();
+
+        /* Méthodes call et apply de fonctions pour spécifier un objet en tant que contexte de la fonction.
+           La méthode apply permet de transmettre les arguments dans un tableau (vois section Techniques avancées)
+           --------------------------------------------------------------------------------------------------------*/
+
+        var objet1 = { pte: "Valeur Pté Objet1" };
+        var objet2 = { pte: "Valeur Pté Objet2" };
+
+        function fnAvecContexteObjet(arg1, arg2) {
+            var msg = "";
+
+            if (this == undefined || this.pte == undefined) {
+                msg = "Arguments : " + arg1 + ", " + arg2 + " pas de contexte objet.";
+            } else {
+                msg = "Arguments : " + arg1 + ", " + arg2 + " - Attribut: " + this.pte;
+            }
+
+            return msg;
+        }
+
+        //afficherMessage("Appel standard avec arg1 et arg2: " + fnAvecContexteObjet("P1", "P2"));
+
+        //afficherMessage("Méthode call avec objet1 : " + fnAvecContexteObjet.call(objet1, "P1", "P2"));
+        //afficherMessage("Méthode call avec objet2 : " + fnAvecContexteObjet.call(objet2, "P1", "P2"));
+
+        //afficherMessage("Méthode apply avec objet1 : " + fnAvecContexteObjet.apply(objet1, ["P1", "P2"]));
+        //afficherMessage("Méthode apply avec objet2 : " + fnAvecContexteObjet.apply(objet2, ["P1", "P2"]));
+    </script>
+
+    <script>
+        /* Fn. anonymes
+           ------------ */
+
+        // Fn. anonyme référencée par une variable (délégué)
+        var fn = function (a, b) {
+            return a + b;
+        };
+
+        var resultat = fn(2, 4.5);
+            //afficherMessage("Fn. anonyme référencée par une variable : " + fn(2, 4.5));
+
+            // Fn. anonyme auto-exécutée (ou à exécution immédiate)
+            //(function (msg) {
+            //    afficherMessage(msg);
+            //})("Message pour la fn anonyme auto-exécuté !");
+
+    </script>
+    <section class="references">
+        <h1>Références et exemples</h1>
+        <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Fonctions" target="_blank">Guide JavaScript - Fonctions (MDN)</a>
+    </section>
+</body>
+</html>
+

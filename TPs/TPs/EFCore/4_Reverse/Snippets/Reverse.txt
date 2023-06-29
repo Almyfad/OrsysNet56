@@ -1,0 +1,9 @@
+Cmdes PMC :
+
+	PM> Get-Help about_EntityFrameworkCore		
+	PM> get-help scaffold-dbcontext
+	PM> Scaffold-DbContext "CS" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Modele -Context VoyagesDbContext
+
+Connexion : Idem InitBase
+
+

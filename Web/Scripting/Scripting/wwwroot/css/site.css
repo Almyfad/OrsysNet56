@@ -1,0 +1,78 @@
+html {
+    font-size: .85em;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 1em;
+    }
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    margin-left: 20px;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    color: #d2691e;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+h5, h6 {
+    font-size: 1em;
+}
+
+section.references {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+    section.references a {
+        display: block;
+    }
+
+    section.references h1 {
+        font-size: 1.2em;
+    }
+
+#divMsg {
+    margin: 20px;
+}
+
+input[type="submit"],
+input[type="button"],
+button {
+    background-color: #d3dce0;
+    border: 1px solid #787878;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 7px;
+    margin: 8px;
+    width: auto;
+}
+
+.alignement-centre {
+    text-align:center;
+}

@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>API's DOM et BOM</title>
+    <link href="/css/site.css" rel="stylesheet" />
+    <style type="text/css">
+        input[type="button"] {
+            padding: 3px;
+            margin: 3px;
+            width: 260px;
+        }
+
+        .classeLien {
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        div.col {
+            float: left;
+            display: table-cell;
+            width: 33%;
+        }
+    </style>
+    
+</head>
+<!--<body onload="alert('Chargement de la page');">-->
+
+<body onload="init();">
+    <div id="msg"></div>
+    <div>
+        <a id="lien" href="http://www.W3.org/">W3</a>
+    </div>
+
+    <div class="col">
+        <h1>Exemples DOM</h1>
+        <p>
+            <input type="button" value="Evénement click d'un bouton" onclick="alert('Evément Click')" />
+        </p>
+        <p>
+            <input type="button" value="Méthode addEventListener" id="btnEventListener" />
+        </p>
+        <p>
+            <input type="button" value="getElementByTagName" onclick="listeInputs();" />
+        </p>
+        <p>
+            <input type="button" value="Créer un nouvel élément" onclick="creerElement();" />
+        </p>
+        <p>
+            <input type="button" value="Supprimer un élément" onclick="supprimerElement();" />
+        </p>
+        <p>
+            <input type="button" value="Ajouter un attribut" onclick="ajouterAttribut();" />
+        </p>
+        <p>
+            <input type="button" value="Supprimer un attribut" onclick="supprimerAttribut();" />
+        </p>
+        <p>
+            <input type="button" value="Ajouter style gras" onclick="ajouterStyle();" />
+        </p>
+        <p>
+            <input type="button" value="Retirer style gras" onclick="supprimerStyle();" />
+        </p>
+    </div>
+    <div class="col">
+        <h1>Exemples BOM</h1>
+        <p>
+            <input type="button" value="Démarrer l'horloge" onclick="demarrerHorloge();" />
+        </p>
+        <p>
+            <input type="button" value="Stopper l'horloge" onclick="stopperHorloge();" />
+        </p>
+    </div>
+    <div class="col">
+        <h2>Boîtes de dialogue</h2>
+        <p>
+            <input type="button" value="Dialog alert" onclick="alert('Un simple message !');" />
+        </p>
+        <p>
+            <input type="button" value="Dialog confirm" onclick="dialogConfirm();" />
+        </p>
+        <p>
+            <input type="button" value="Dialog prompt" onclick="dialogPrompt();" />
+        </p>
+        <p>
+            <input type="button" value="window.open" onclick="afficherFenetre('Titre nouvelle fenêtre', 'Texte à afficher ...', 400, 120);" />
+        </p>
+    </div>
+    <script src="exemples.js"></script>
+    <script src="dom-bom.js"></script>
+</body>
+</html>

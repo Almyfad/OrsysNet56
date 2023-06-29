@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="../css/site.css" rel="stylesheet" />
+    <!--<script src="../Scripts/jquery-2.1.4.js"></script>-->
+    <script src="exemples.js"></script>
+    <!--L'objet Global JSON a été ajoutée à JavaScript 1.7 (IE8+)
+        JSON3 fournit l'équivalent (polyfill) pour les anciens navigateurs-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/json3/3.2.4/json3.min.js"> </script>
+    <title>Sérialisation</title>
+    <script>   
+		"use strict";	
+        var objetJSON = { "prenom": "Jean", "nom": "Martin", "email": "jean.martin@exemple.com" };
+		var stringJSON = '{ "prenom": "Jean", "nom": "Martin", "email": "jean.martin@exemple.com" }';		
+        var msg = "";
+
+        // Sérialisation vers une chaîne
+        function serialization() {
+
+            var chaineJson = JSON.stringify(objetJSON);
+            msg = "stringify : " + chaineJson + "<br/>";
+
+            // Sérialiser les ptés spécifiées dans un tableau
+            var ptes = ["nom", "prenom"];
+            var chaineJsonReplacer = JSON.stringify(objetJSON, ptes);
+            msg += "stringify avec replacer : " + chaineJsonReplacer + "<br/>";
+
+            // Même exemple, en séparant les valeurs avec un tag <br/>
+            var chaineJsonSpace = JSON.stringify(objetJSON, ptes, "<br/>");
+            msg += "stringify avec replacer et space : " + chaineJsonSpace;
+
+            afficherMessage(msg);           
+        }
+       
+        // Désérialisation à partir d'une chaîne
+        function deserialisation() {
+            // undefined
+            msg = "Accès sans conversion : " + stringJSON.prenom + "<br/>";
+
+            // Déconseillé
+            var jsonEval = eval("(" + stringJSON + ")");
+            msg += "Accès après un eval : " + jsonEval.prenom + " " + jsonEval.nom + "<br/>";
+         
+            var jsonParse = JSON.parse(stringJSON);
+            msg += "Accès après un parse : " + jsonParse.prenom + " " + jsonParse.nom + "<br/>";
+
+            // Sérialisation avec jQuery
+            //var jsonJQ = $.parseJSON(stringJSON);
+            //msg += "Accès après un parse jQuery: " + jsonJQ.prenom + " " + jsonJQ.nom + "<br/>";
+
+            afficherMessage(msg);
+        }
+
+        function deserialisationAvecTransformation() {
+
+            var transforme = JSON.parse(stringJSON, function (key, val) {
+                if (key === "nom") return val.toUpperCase();;
+                return val;
+            });
+
+            msg = "Accès après une transformation: " + transforme.prenom + " " + transforme.nom + "<br/>";
+            afficherMessage(msg);
+        }
+    </script>
+</head>
+<body>
+    <h1>Serialisation</h1>
+    <div id="msg"></div>
+    <button type="button" id="btnSerialisation" onclick="serialization();">Sérialisation</button>
+    <br />
+    <button type="button" id="btnDeserialisation" onclick="deserialisation();">Désérialisation</button>
+    <br />
+    <button type="button" id="btnDeserialisationAvecTransformation" onclick="deserialisationAvecTransformation();">Désérialisation avec transformation</button>
+    <br />
+</body>
+</html>

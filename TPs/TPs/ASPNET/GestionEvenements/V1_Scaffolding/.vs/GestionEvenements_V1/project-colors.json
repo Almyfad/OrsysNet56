@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7110fab3-bd3d-4a57-88f5-5c4e79a8ca4d": {
+      "ProjectGuid": "7110fab3-bd3d-4a57-88f5-5c4e79a8ca4d",
+      "DisplayName": "GestionEvenements",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

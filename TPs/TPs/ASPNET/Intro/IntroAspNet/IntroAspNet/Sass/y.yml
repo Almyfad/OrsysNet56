@@ -1,0 +1,11 @@
+﻿Utilisateur:
+ - toto:
+    name: SENE
+    prenom: Lary
+    bool: true
+    date: 15/06/2023
+ - tata:
+    name: SENE
+    prenom: Lary
+    bool: true
+    date: 15/06/2023

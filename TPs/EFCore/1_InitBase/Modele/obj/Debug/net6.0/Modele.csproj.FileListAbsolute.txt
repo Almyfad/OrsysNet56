@@ -1,0 +1,14 @@
+C:\Users\orsys\Desktop\StageASN\TPs\EFCore\1_InitBase\Modele\bin\Debug\net6.0\Modele.deps.json
+C:\Users\orsys\Desktop\StageASN\TPs\EFCore\1_InitBase\Modele\bin\Debug\net6.0\Modele.runtimeconfig.json
+C:\Users\orsys\Desktop\StageASN\TPs\EFCore\1_InitBase\Modele\bin\Debug\net6.0\Modele.dll
+C:\Users\orsys\Desktop\StageASN\TPs\EFCore\1_InitBase\Modele\bin\Debug\net6.0\Modele.pdb
+C:\Users\orsys\Desktop\StageASN\TPs\EFCore\1_InitBase\Modele\obj\Debug\net6.0\Modele.csproj.AssemblyReference.cache
+C:\Users\orsys\Desktop\StageASN\TPs\EFCore\1_InitBase\Modele\obj\Debug\net6.0\Modele.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\orsys\Desktop\StageASN\TPs\EFCore\1_InitBase\Modele\obj\Debug\net6.0\Modele.AssemblyInfoInputs.cache
+C:\Users\orsys\Desktop\StageASN\TPs\EFCore\1_InitBase\Modele\obj\Debug\net6.0\Modele.AssemblyInfo.cs
+C:\Users\orsys\Desktop\StageASN\TPs\EFCore\1_InitBase\Modele\obj\Debug\net6.0\Modele.csproj.CoreCompileInputs.cache
+C:\Users\orsys\Desktop\StageASN\TPs\EFCore\1_InitBase\Modele\obj\Debug\net6.0\Modele.dll
+C:\Users\orsys\Desktop\StageASN\TPs\EFCore\1_InitBase\Modele\obj\Debug\net6.0\refint\Modele.dll
+C:\Users\orsys\Desktop\StageASN\TPs\EFCore\1_InitBase\Modele\obj\Debug\net6.0\Modele.pdb
+C:\Users\orsys\Desktop\StageASN\TPs\EFCore\1_InitBase\Modele\obj\Debug\net6.0\Modele.genruntimeconfig.cache
+C:\Users\orsys\Desktop\StageASN\TPs\EFCore\1_InitBase\Modele\obj\Debug\net6.0\ref\Modele.dll

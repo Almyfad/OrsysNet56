@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\activity.svg" />
+    <None Include="wwwroot\images\banniere1.jpg" />
+    <None Include="wwwroot\images\banniere2.jpg" />
+    <None Include="wwwroot\images\banniere3.jpg" />
+    <None Include="wwwroot\images\video.mp4" />
+    <None Include="wwwroot\images\video.png" />
+    <None Include="wwwroot\images\voyages.jpg" />
+  </ItemGroup>
+
+</Project>

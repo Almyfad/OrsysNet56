@@ -1,0 +1,111 @@
+Concepts
+
+* https://fr.wikipedia.org/wiki/SOLID_(informatique)
+
+NET 
+
+* RoadMap : https://dotnet.microsoft.com/platform/support/policy/dotnet-core	
+* Navigateur d'Apis : https://learn.microsoft.com/fr-fr/dotnet/api/
+* C# : https://learn.microsoft.com/fr-fr/dotnet/csharp/whats-new/csharp-11
+* NET 5 -> 6 : Nouveau modèle Program.cs/Main : https://learn.microsoft.com/fr-fr/dotnet/core/tutorials/top-level-templates
+* NET 6 : https://learn.microsoft.com/fr-fr/dotnet/core/whats-new/dotnet-6
+* Glossaire : https://learn.microsoft.com/fr-fr/dotnet/standard/glossary
+   
+SDKs : usings implicites
+
+* https://learn.microsoft.com/fr-fr/dotnet/core/project-sdk/overview#implicit-using-directives
+
+HTML5
+
+* Tag Template : https://www.w3schools.com/tags/tag_template.asp
+ 
+JS 
+
+* Templates de strings : https://www.alsacreations.com/astuce/lire/1764-Les-template-strings-en-JavaScript.html
+
+
+ASP.NET
+
+* https://learn.microsoft.com/fr-fr/aspnet/core/introduction-to-aspnet-core
+
+* Pipeline : https://learn.microsoft.com/fr-fr/aspnet/core/fundamentals/middleware
+* MVC : https://learn.microsoft.com/en-us/aspnet/core/mvc/controllers/routing
+* Razor : https://learn.microsoft.com/fr-fr/aspnet/core/blazor/
+
+* Config Auth et personnalisation de Auth.UI
+
+	* https://learn.microsoft.com/fr-fr/aspnet/core/security/authentication/scaffold-identity
+	* https://gavilan.blog/2019/07/18/accountcontroller-missing-razor-class-libraries-dotnet-cli-identity-scaffolding/
+  
+* Exemples : 
+
+	> https://tutexchange.com/exception-filter-in-asp-net-core-mvc/
+	> https://www.thecodebuzz.com/exception-filters-in-net-core/
+
+* Sécurité 
+
+	> https://learn.microsoft.com/en-us/aspnet/core/security/
+	> Upload de fichiers : https://learn.microsoft.com/fr-fr/aspnet/core/mvc/models/file-uploads?view=aspnetcore-6.0#security-considerations
+	> Empêcher les requêtes inter-sites : https://learn.microsoft.com/fr-fr/aspnet/core/security/anti-request-forgery
+
+Services
+
+	* Sessions : PN Microsoft.AspNetCore.Session : https://learn.microsoft.com/fr-fr/aspnet/core/fundamentals/app-state?view=aspnetcore-5.0
+	* Gestion de l'environnement : https://learn.microsoft.com/en-us/aspnet/core/fundamentals/environments?view=aspnetcore-5.0#determining-the-environment-at-runtime
+	* Logs : https://learn.microsoft.com/fr-fr/aspnet/core/fundamentals/logging
+
+EC Core :
+
+	PN Microsoft.EntityFrameworkCore, Microsoft.EntityFrameworkCore.SqlServer et
+	   Microsoft.Extensions.Configuration.Json pour lire la cs d'un fichier appsettings.json, à recopier dans le dossier de sortie
+
+	* https://learn.microsoft.com/fr-fr/ef/core/what-is-new/ef-core-6.0/whatsnew
+	* https://github.com/dotnet/EntityFramework.Docs/tree/master/samples/core/Miscellaneous/NewInEFCore6
+       
+	* https://learn.microsoft.com/fr-fr/ef/core/
+	* https://learn.microsoft.com/fr-fr/ef/core/cli/powershell
+
+	* https://www.learnentityframeworkcore5.com/entity-framework-core-model
+	* https://www.learnentityframeworkcore5.com/project-types/blazor
+
+ 	* https://learn.microsoft.com/fr-fr/ef/core/cli/powershell
+	* https://learn.microsoft.com/fr-fr/ef/core/managing-schemas/scaffolding?tabs=dotnet-core-cli
+
+	* Outils de manipulation de bases relationnelles :
+
+		https://learn.microsoft.com/fr-fr/dotnet/api/microsoft.entityframeworkcore.relationaldatabasefacadeextensions?view=efcore-5.0	
+
+	* https://stackoverflow.com/questions/38893873/saving-many-to-many-relationship-in-entity-framework-core	
+	
+Blazor
+
+ > https://learn.microsoft.com/fr-fr/dotnet/architecture/blazor-for-web-forms-developers/
+ 
+ * Tuto exemple : https://github.com/dotnet-presentations/blazor-workshop/
+                
+ * Dans un projet Serveur, il y a une ref sur le projet Client car c'est le serveur qui démarre et lance l'app client avec les sces 
+   endpoints.MapBlazorHub(); et MapFallbackToPage configurés dans Startup.cs
+   
+ * Gestion de l'état : https://learn.microsoft.com/fr-fr/aspnet/core/blazor/state-management?view=aspnetcore-6.0&pivots=webassembly
+ 
+ * Pour l'auth dans un client, il faut un sce d'auth fourni par un controlleur spécifique OidcConfigurationController 
+   déclaré en sce du conteneur IOC dans Startup avec  :
+  
+	services.AddIdentityServer().AddApiAuthorization<ApplicationUser, ApplicationDbContext>();
+		
+	  (PN Microsoft.AspNetCore.Components.WebAssembly.DevServer)
+		
+	> Ce ctrlr se charge de fournir une Auth pour un HttpContext et un ClientId
+	
+	> Il est appelé dans la page Authentication avec le composant intégré <RemoteAuthenticatorView Action="@Action" />
+	
+	  (PN Microsoft.AspNetCore.Components.WebAssembly.Authentication)
+	  
+	> On a 2 composants personnalisables : LoginDisplay et RedirectToLogin qui font appel au sce.
+	
+	> Le composant intégré <AuthorizeView>-><Authorized> est visible dans NavMenu
+			
+Publication 
+ * FRM cible : NET 6, plateforme 64 et déploiement lié au FRM
+ * AppPool NET6 sur FRM 4.0.30319 avec Identité SceReseau
+ * Sécurité dossier : Modification pour Compte SceReseau

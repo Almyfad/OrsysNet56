@@ -1,0 +1,45 @@
+﻿@page
+<h1>Contact</h1>
+
+<p>Entrez vos coordonnées et cliquez sur bouton Envoi</p>
+<form id="Contact">
+    <div class="form-group">
+        <label for="Nom">Nom</label>
+        <input id="Nom" type="text" title="Entrez votre nom" placeholder="(Entrez votre nom)" required />
+    </div>
+    <div class="form-group">
+        <label for="Email">Email</label>
+        <input id="Email" type="email" />
+    </div>
+    <div class="form-group">
+        <label for="Tel">Tel</label>
+        <input id="Tel" type="tel" placeholder="## ## ## ##" title="## ## ## ##" pattern="\d\d \d\d\ \d\d \d\d" />
+    </div>
+    <div class="form-group">
+        <label for="DateDepart">Date départ</label>
+        <input id="DateDepart" type="date" />
+    </div>
+    <div class="form-group">
+        <label for="NbrPersonnes">Nbr de personnes</label>
+        <input id="NbrPersonnes" type="number" value="1" />
+    </div>
+    <div class="form-group">
+        <label for="Bagages">Bagages</label>
+        <input id="Bagages" title="Entrez un nombre de 0 à 100" type="range" min="0" max="100" value="0" />
+    </div>
+    <div class="form-group">
+        <label for="Couleur">Couleur préférée</label>
+        <input id="Couleur" type="color" />
+    </div>
+    <div class="form-group">
+        <label for="Navigateur">Navigateur préféré</label>
+        <input list="Navigateur" />
+        <datalist id="Navigateur">
+            <option value="Safari" />
+            <option value="Internet Explorer" />
+            <option value="Opera" />
+            <option value="Firefox" />
+        </datalist>
+    </div>
+    <input class="btn btn-primary" type="submit" value="Envoi" />
+</form>

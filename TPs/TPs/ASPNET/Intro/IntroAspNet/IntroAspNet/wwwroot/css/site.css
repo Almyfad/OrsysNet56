@@ -1,0 +1,41 @@
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+html {
+  font-size: 14px;
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.bodynew {
+  background-color: darkseagreen;
+}
+
+.field-validation-error {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  font-style: italic;
+  color: red;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+.screenlabelmode {
+  font-size: 0.7em;
+}
+
+/*# sourceMappingURL=site.css.map */

@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Intro jQuery</title>
+    <meta charset="utf-8" />
+    <link href="../css/site.css" rel="stylesheet" />
+    <style>
+        iframe {
+            margin: 10px auto;
+            width: 90%;
+            height: 400px;
+        }
+    </style>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>
+        function bonjourJQ() {
+            $("#div1").text("Bonjour jQuery !");
+        }
+        function windowLoad() {
+            console.log("Load de la window à " + new Date().toTimeString());
+        }
+
+        // Syntaxe simplifiée de : $(document).ready(function() {});
+        $(function () {
+            console.log("document ready à " + new Date().toTimeString());
+            $("#btnBonjourJQ").click(bonjourJQ);
+        });
+
+        document.addEventListener("DOMContentLoaded", () => {
+            console.log("DOMContentLoaded ready à " + new Date().toTimeString());
+        });
+    </script>
+</head>
+<body onload="windowLoad();">
+    <h2>Intro JQuery</h2>
+    <!--Conseil : ajouter l'entête: Access-Control-Allow-Origin: https://w3.org
+        ou config sce CORS (Cross Origin Resource Sharing) -->
+    <div><iframe src="https://tf1.fr"></iframe></div>
+    <input type="button" id="btnBonjourJQ" value="Bonjour jQuery" />
+    <div id="div1">Une Div nommée div1</div>
+</body>
+</html>

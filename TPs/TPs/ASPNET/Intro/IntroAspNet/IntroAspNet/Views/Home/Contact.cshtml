@@ -1,0 +1,28 @@
+﻿@model ContactViewModel;
+<h1>Vue Contact</h1>
+
+<form method="post">
+	<label asp-for="Nom">Votre nom :</label>
+	<input asp-for="Nom" name="Nom" />
+	<span asp-validation-for="Nom"></span>
+	<br />
+	<label asp-for="Email">Email :</label>
+	<input asp-for="Email" name="Email" />
+	<span asp-validation-for="Email"></span>
+	<br />
+	<label asp-for="Sujet">Sujet :</label>
+	<input asp-for="Sujet" name="Sujet" />
+	<span asp-validation-for="Sujet"></span>
+	<br />
+	<label asp-for="Message">Message :</label>
+	<input asp-for="Message" name="Message" />
+	<span asp-validation-for="Message"></span>
+	<br />
+	<input type="submit" value="Envoyer" />
+</form>	
+
+@section Scripts {
+
+	<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+	<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

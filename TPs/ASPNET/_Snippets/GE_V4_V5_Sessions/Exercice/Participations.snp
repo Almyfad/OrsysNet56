@@ -1,0 +1,113 @@
+RepoEvenements
+==============
+
+* Ajouter la Mt Participation (idEvenement et iDParticipant)
+
+	public async Task<int> Participation(int idev, int idpa)
+	{
+		string sql = $"Insert Into Participations (EvenementId, ParticipantId)  Values ({idev}, {idpa})";
+		return await Context.Database.ExecuteSqlRawAsync(sql);
+	}
+
+* Surcharger la méthode Liste avec l'argument filtre :
+	
+		public List<Evenement> Liste(string filtre)
+		{
+			NoTracking();
+			return Context.Evenements
+				.AsQueryable()
+				.Where(it => it.Titre.Contains(filtre))
+				.OrderBy(it => it.Annee)
+				.ToList();
+		}
+		
+EvenementsController Api
+========================
+				
+	// POST: api/evenements/participation/idev/idpa
+	[HttpPost]
+	[Route("participation/{idev}/{idpa}")]
+	public async Task<int> Participation(string idev, string idpa)
+	{
+		if (!int.TryParse(idev, out var ide) || !int.TryParse(idpa, out var ida))
+		{
+			throw new ArgumentException($"Ids idEv={idev}, idAd{idpa} invalides dans api/Evenements/participation !");
+		}
+
+		var repo = new RepoEvenements(_context);
+		return await repo.Participation(ide, ida);
+	}		
+	
+EvenementsController
+====================
+
+	public async Task<IActionResult> Participation(int id, string texteRecherche)
+	{
+		var repoPa = new RepoParticipants(_repo.Context);
+		var participant = await repoPa.LireAsync(id);
+		if (participant == null)
+		{
+			return NotFound();
+		}
+
+		ViewBag.PaId = id;
+		ViewBag.Participant = participant.ToString();
+		if (string.IsNullOrEmpty(texteRecherche))
+		{
+			return View();
+		}
+		ViewBag.Filtre = texteRecherche.Trim();
+		List<Evenement> evenements = _repo.Liste(ViewBag.Filtre);
+		int n = evenements.Count;
+		ViewBag.Resultat = n == 0 ? "Aucune correspondance" : $"{n} événements trouvés";
+		return View(evenements);
+	}
+		
+* Installation du script Participations.js
+
+* Installation de la vue Participations dans le SD Evenements
+
+* Compléter la vue Evénements/Details :
+
+	<hr />
+	<h4 style="margin-top:20px">Participations</h4>
+
+	<table class="table">
+		<thead>
+		<tr>
+			<th>
+				Civilité
+			</th>
+			<th>
+				Nom
+			</th>
+			<th>
+				Activités
+			</th>
+
+			<th></th>
+		</tr>
+		</thead>
+		<tbody>
+		@foreach (var item in Model.Participations)
+		{
+			<tr>
+				<td>
+					@Html.DisplayFor(modelItem => item.Participant.Civilite)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Participant.Prenom)&nbsp;
+					@Html.DisplayFor(modelItem => item.Participant.Nom)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Participant.Activites)
+				</td>
+				<td>
+					<a asp-controller="Participants" asp-action="Details" asp-route-id="@item.ParticipantId">Fiche</a>
+				</td>
+			</tr>
+		}
+		</tbody>
+	</table>
+
+		

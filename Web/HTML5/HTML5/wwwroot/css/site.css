@@ -1,0 +1,163 @@
+/*#region Fonts */
+
+@font-face {
+    font-family: Questrial;
+    src: url('/fonts/Questrial-Regular.ttf');
+}
+
+@font-face {
+    font-family: michroma;
+    src: url('/fonts/michroma-webfont.woff');
+}
+
+@font-face {
+    font-family: Exo;
+    src: url('/fonts/Exo-Regular.otf');
+}
+
+/*#endregion Fonts */
+
+/*#region Pages */
+
+html {
+    font-size: 14px;
+}
+
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    color: #4b4b4b;
+    font-family: Questrial,Verdana, Arial;
+    font-size: 1em;
+    margin-bottom: 60px;
+}
+
+
+h1, h2 {
+    color: navy;
+}
+
+a {
+    color: #ff5400;
+    text-decoration: none;
+    padding-bottom: 2px;
+}
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    a:active {
+        color: #ff5400;
+        text-decoration: none;
+    }
+
+p {
+    margin-bottom: 15px;
+    line-height: 20px;
+}
+
+mark {
+    display: inline-block;
+    color: #9f00ff;
+    background-color: transparent;
+    padding-left: 5px;
+    padding-right: 15px;
+}
+
+    mark:hover {
+        transform: translateX(10px) rotate(5deg);
+    }
+
+/*#endregion Pages */
+
+/*#region Animations */
+
+@keyframes animTitre {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+span.anim {
+    animation: animTitre 3s infinite alternate;
+}
+
+/*#endregion */
+
+/*#region Formulaires */
+
+label {
+    float: left;
+    padding-left: 100px;
+    padding-top: 15px;
+    color: #ff5400;
+    width: 200px;
+}
+
+input {
+    width: 400px;
+    padding: 10px;
+    font-family: Arial;
+    color: #4b4b4b;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+    input[type="submit"] {
+        border: none;
+        cursor: pointer;
+        color: #fff;
+        font-size: 20px;
+        padding: 10px 0;
+        margin-left: 300px;
+        margin-top: 10px;
+        width: 420px;
+    }
+
+        input[type="submit"]:active {
+            position: relative;
+            top: 1px;
+        }
+
+.btnEnvoi {
+    color: #fff;
+    background-color: #ff5400;
+}
+
+    .btnEnvoi:hover {
+        background-color: #7ac000;
+    }
+
+.form-group > label {
+    width: 310px;
+}
+
+/*#endregion */
+
+/*#region Spécifique */
+
+.presentation {
+    padding: 10px;
+    column-count: 3;
+    column-gap: 30px;
+    column-rule: 4px #999 dotted;
+}
+
+div.visuel {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+/*#endregion */
+
