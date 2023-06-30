@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Gestion d'événements";
+}
+<h1>@ViewData["Title"]</h1>
+
+<h2>Scénario TP V2 (SceData) -> V3 (associations) </h2>
+<p>Il s'agit d'associer une adresse à un événement, soit avec une nouvelle adresse, soit avec une adresse existante.</p>
+<ol>
+    <li>Compléter la Vue Evenements/Details pour proposer une adresse si elle est null (SNP).</li>
+    <li>Compléter la Vue Adresses/Create pour associer l'adresse à un événement (SNP 40).</li>
+	<li>Compléter RepoEvenement avec AssocierAdresse(ide,ida) et RetirerAdresse(int ide) (SNP 95).</li>
+	<li>Ctlr Api EvenementsController avec AssocierAdresse (POST: api/evenements/ca/idev/idad).</li>
+	<li>Ctlr Api AdressesController avec RechercheAdresses(string cpVille) (GET: api/Adresses/ra/cpVille).</li>
+	<li>Recup du script adresse_create.js.</li>
+	<li>Intégration du script dans la section Scripts de la Vue.</li>
+	<li>Compléter l'action Adresses/Create (GET et POST) pour associer l'ev à l'adresse si EvId a été transmis (SNP 165).</li>
+	<li>Ajouter l'action RetirerAdresse dans le ctrl Evenement avec demande confirmation dans la vue par script (SNP 225).</li>
+</ol>
+
